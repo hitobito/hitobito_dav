@@ -6,17 +6,11 @@
 # Settings relevant for the hitobito_sac_cas wagon
 # Overrides settings from the main application
 application:
-  name: SAC/CAS-Portal
+  name: Deutscher Alpenverein
   languages:
     de: Deutsch
-    fr: Français
-    it: Italiano
   logo:
-    image: sac_logo_de.svg
-    multilanguage_image:
-      de: sac_logo_de.svg
-      fr: sac_logo_fr.svg
-      it: sac_logo_it.svg
+    image: dav-logo.svg
     height: 85
     width: 200
 
@@ -25,15 +19,15 @@ event:
     delete_answers_after_months: 6
     delete_additional_information_after_months: 6
 
-groups:
-  membership_statistics_download_url: https://stats.portal.sac-cas.ch/download
+# groups:
+#   membership_statistics_download_url: https://stats.portal.sac-cas.ch/download
 
 # The person with this email has root access to everything
 # This person should only be used by the operators of the application,
 # not the customers.
 # Initially, a password reset token may be mailed from the application
 # to this address to set a password.
-root_email: hitobito-sac-cas@puzzle.ch
+root_email: hitobito-dav@puzzle.ch
 
 sftp:
   config:
@@ -81,7 +75,6 @@ impersonate:
 
 hitobito_log:
   recipient_emails:
-    - it@sac-cas.ch
 
 #invoicing:
 #  abo_magazin:

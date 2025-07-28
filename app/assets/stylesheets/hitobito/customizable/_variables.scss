@@ -22,6 +22,25 @@ $sac_skitouren: #0033ff;
 $sac_schneeschuhtouren: #008a79;
 $sac_huetten_privat: #ffbb00;
 
+$dav-body: #51565d;
+$dav-fill: #3b696d;
+$dav-footer: #363b44;
+$dav-footer-partner: #707680;
+$dav-primary: #2d5e20;
+$dav-primary-darken: #609e66;
+$dav-primary-light: #ddefd6;
+$dav-secondary: #9abd3d;
+$dav-text-base: #51565d;
+$dav-text-highlight: #3b696d;
+$dav-text-inverted: #fff;
+
+$dav-black: $dav-footer;
+$dav-gray: $dav-footer-partner;
+$dav-gray-dark: darken($dav_gray, 20%);
+$dav-gray-light: lighten($dav_gray, 20%);
+$dav-white: #eee;
+$dav-red: $sac_red;
+
 /* Bootstrap variable definition here */
 
 // GLOBAL VALUES
@@ -29,49 +48,49 @@ $sac_huetten_privat: #ffbb00;
 
 // Grays
 // -------------------------
-$black: $sac_black !default;
-$gray-darker: darken($sac_gray_dark, 15%) !default;
-$gray-dark: darken($sac_gray_dark, 5%) !default;
-$gray: $sac_gray_dark !default;
-$gray-light: $sac_gray !default;
-$gray-lighter: $sac_gray_light !default;
+$black: $dav-black !default;
+$gray-darker: darken($dav-gray-dark, 15%) !default;
+$gray-dark: darken($dav-gray-dark, 5%) !default;
+$gray: $dav-gray-dark !default;
+$gray-light: $dav-gray !default;
+$gray-lighter: $dav-gray-light !default;
 $white: #fff !default;
 
 // Colors
 // ----------------------------
-$blue: $sac_red !default;
-$blue-dark: $sac_red_hover !default;
-$green: $sac_green !default;
-$green-dark: $sac_green_hover !default;
+$blue: $dav-primary !default;
+$blue-dark: $dav-primary-darken !default;
+$green: $dav-secondary !default;
+$green-dark: darken($dav-secondary, 10%) !default;
 
-$orange: $sac_red !default;
-$orange-dark: $sac_red_hover !default;
-$purple: $sac_red_hover !default;
-$purple-dark: darken($sac_red_hover, 10%) !default;
+$orange: $dav-primary !default;
+$orange-dark: $dav-primary-darken !default;
+$purple: $dav-primary-darken !default;
+$purple-dark: darken($dav-primary-darken, 10%) !default;
 
-$red: $sac_red !default;
+$red: $dav-red !default;
 
-$text-color: $sac_black !default;
-$border-color: $sac_gray_dotted_lines !default;
+$text-color: $dav-text-base !default;
+$border-color: $dav-gray-light !default;
 
-$page-background: $sac_gray;
-$content-background: $sac_gray;
-$footer-background: darken($sac_gray, 20%);
+$page-background: $dav-white;
+$content-background: $dav-gray-light;
+$footer-background: $dav-footer;
 $body-background: $footer-background !default;
 
-$focus-color: $sac_red;
-$shadow-color: $sac_gray_dark;
-$link-color: $sac_red !default;
-$link-color-hover: $sac_red_hover !default;
+$focus-color: $dav-text-highlight;
+$shadow-color: $dav-gray-light;
+$link-color: $dav-primary !default;
+$link-color-hover: $dav-primary-darken !default;
 
 $footer-color: $white;
-$footer-color-hover: $white;
+$footer-color-hover: $dav-primary-light;
 
-$table-color-hover: $sac_gray;
+$table-color-hover: $dav-primary-light;
 
 // Typography
 // -------------------------
-$sans-font-family: Hind, Frutiger, Helvetica, Arial, sans-serif !default;
+$sans-font-family: Fira Sans Regular, Helvetica, Arial, sans-serif !default;
 $heading-font-family: $sans-font-family !default;
 $font-family-base: $sans-font-family !default;
 $headings-font-weight: normal !default; // instead of browser default, bold
