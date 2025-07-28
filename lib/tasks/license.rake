@@ -8,9 +8,9 @@
 namespace :app do
   namespace :license do
     task :config do # rubocop:disable Rails/RakeEnvironment
-      @licenser = Licenser.new("hitobito_sac_cas",
-        "Schweizer Alpen-Club",
-        "https://github.com/hitobito/hitobito_sac_cas")
+      @licenser = Licenser.new("hitobito_dav",
+        "Deutscher Alpenverein",
+        "https://github.com/hitobito/hitobito_dav")
     end
   end
 end

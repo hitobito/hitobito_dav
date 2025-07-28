@@ -15,4 +15,4 @@ load 'rspec/rails/tasks/rspec.rake'
 
 require 'ci/reporter/rake/rspec' unless Rails.env.production?
 
-HitobitoSacCas::Wagon.load_tasks
+HitobitoDav::Wagon.load_tasks

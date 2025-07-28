@@ -5,10 +5,6 @@
 #  or later. See the COPYING file at the top-level directory or at
 #  https://github.com/hitobito/hitobito_sac_cas.
 
-require "wagons"
-# require 'your_wagon_dependencies'
-require "hitobito_youth"
-require "hitobito_sac_cas/wagon"
-
-module HitobitoSacCas
+module HitobitoDav
+  VERSION = "2.6.9"
 end

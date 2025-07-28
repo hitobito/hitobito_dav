@@ -16,7 +16,7 @@ require File.join(ENV.fetch("APP_ROOT", nil), "spec", "spec_helper.rb")
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
-Dir[HitobitoSacCas::Wagon.root.join("spec/support/**/*.rb")].sort.each { |f| require f }
+Dir[HitobitoDav::Wagon.root.join("spec/support/**/*.rb")].sort.each { |f| require f }
 
 RSpec.configure do |config|
   config.fixture_paths = [File.expand_path("fixtures", __dir__)]

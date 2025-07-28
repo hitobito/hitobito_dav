@@ -8,7 +8,7 @@
 module Invoices
   module Abacus
     class Config
-      FILE_PATH = HitobitoSacCas::Wagon.root.join("config", "abacus.yml")
+      FILE_PATH = HitobitoDav::Wagon.root.join("config", "abacus.yml")
       KEYS = %w[host mandant username password].freeze
 
       class << self
