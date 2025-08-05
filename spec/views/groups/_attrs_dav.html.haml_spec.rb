@@ -4,7 +4,7 @@
 #  https://github.com/hitobito/hitobito_sac_cas.
 
 require "spec_helper"
-describe "groups/_attrs_sac_cas.html.haml" do
+describe "groups/_attrs_dav.html.haml" do
   include FormatHelper
 
   let(:dom) {
