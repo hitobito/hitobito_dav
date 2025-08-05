@@ -38,7 +38,7 @@ module HitobitoDav
         # In the development and test environment, we want to use the "gsw" locale
         # for i18n fallback. In the deployed application, transifex will include the fallback
         # translations in the regular locale files.
-        app.config.i18n.available_locales = [:de, :gsw]
+        app.config.i18n.available_locales = [:de, :gsw, :en] # en is required for faker seeds 🤪
         app.config.i18n.fallbacks = [:gsw, de: :gsw]
       end
     end
