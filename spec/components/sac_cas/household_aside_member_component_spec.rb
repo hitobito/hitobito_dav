@@ -18,7 +18,7 @@ describe HouseholdAsideMemberComponent, type: :component do
     stub_can(:show, true)
     stub_can(:set_sac_family_main_person, true)
     rendered_component = render_inline(component)
-    expect(rendered_component).to have_selector('a[data-turbo-frame="_top"][href="/de/people/600002"]', text: "Tenzing Norgay")
+    expect(rendered_component).to have_selector('a[data-turbo-frame="_top"][href*="/people/600002"]', text: "Tenzing Norgay")
     expect(rendered_component).to have_selector("span", text: "(25)")
     expect(rendered_component).to have_text "Tenzing Norgay"
   end

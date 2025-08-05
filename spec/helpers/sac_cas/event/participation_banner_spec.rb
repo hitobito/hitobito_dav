@@ -58,7 +58,7 @@ describe Event::ParticipationBanner do
       expect(button["data-bs-toggle"]).to eq "popover"
 
       popover = Capybara::Node::Simple.new(button["data-bs-content"])
-      expect(popover).to have_css "form[action='/de/groups/1/events/1/participations/1/cancel']"
+      expect(popover).to have_css "form[action*='/groups/1/events/1/participations/1/cancel']"
       expect(popover).to have_field "Begründung"
     end
 

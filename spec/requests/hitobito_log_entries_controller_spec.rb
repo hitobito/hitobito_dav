@@ -17,9 +17,9 @@ describe HitobitoLogEntriesController, type: :request do
     let!(:log_entry) { HitobitoLogEntry.create!(category: "rechnungen", level: :error, message: "something went wrong", subject: invoice) }
 
     it "renders ExternalInvoices with a correct link" do
-      get "/de/hitobito_log_entries/rechnungen"
+      get "/hitobito_log_entries/rechnungen"
       expect(response).to be_successful
-      expect(response.body).to include("a href=\"/de/external_invoices/#{invoice.id}")
+      expect(response.body).to include("a href=\"/external_invoices/#{invoice.id}")
     end
   end
 end

@@ -32,7 +32,7 @@ describe Event::KindCategoriesController do
       expect(response).to be_ok
 
       link = dom.find_link "Werte auf Kursarten übertragen"
-      expect(link[:href]).to eq "/de/event_kind_categories/#{category.id}/push_down"
+      expect(link[:href]).to eq "/event_kind_categories/#{category.id}/push_down"
       expect(link[:"data-method"]).to eq "put"
     end
   end

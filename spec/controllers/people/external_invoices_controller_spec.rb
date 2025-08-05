@@ -126,7 +126,7 @@ describe People::ExternalInvoicesController do
 
           get :index, params: {group_id: group_id, id: person.id}
 
-          expect(response.body).to have_selector("a[data-method='post'][href='/de/groups/#{group_id}/people/#{person.id}/external_invoices/#{invoice.id}/cancel']") do |button|
+          expect(response.body).to have_selector("a[data-method='post'][href='/groups/#{group_id}/people/#{person.id}/external_invoices/#{invoice.id}/cancel']") do |button|
             expect(button).to have_text("Stornieren")
           end
         end
