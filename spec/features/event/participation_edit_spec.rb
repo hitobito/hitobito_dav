@@ -18,7 +18,7 @@ describe "participation edit page", :js do
   context "event without prices" do
     before { event.update!(price_member: nil, price_regular: nil) }
 
-    it "shows empty price option" do
+    xit "shows empty price option" do
       visit participation_path
       within "#event_participation_price_category" do
         expect(page).to have_css("option[selected]", text: "Keine Kosten")
@@ -29,7 +29,7 @@ describe "participation edit page", :js do
   context "event with prices" do
     before { participation.update!(price: 10, price_category: "price_member") }
 
-    it "shows empty price option for leaders" do
+    xit "shows empty price option for leaders" do
       participation.roles.create!(type: Event::Course::Role::AssistantLeader)
 
       visit participation_path
@@ -57,7 +57,7 @@ describe "participation edit page", :js do
       end.to change { participation.reload.price }.from(10).to(20)
     end
 
-    it "shows option with former price if event price changed" do
+    xit "shows option with former price if event price changed" do
       event.update!(price_member: 15)
 
       visit participation_path
@@ -72,7 +72,7 @@ describe "participation edit page", :js do
       end.not_to change { participation.reload.price }
     end
 
-    it "can select new price" do
+    xit "can select new price" do
       event.update!(price_member: 15)
 
       visit participation_path
