@@ -88,8 +88,7 @@ describe Event::ParticipationsController do
     let(:params) { {group_id: group.id, event_id: event.id, id: participation.id} }
 
     it "includes cancel_statement field in cancel popover" do
-      Fabricate(:event_application, participation: participation, priority_1: event,
-        priority_2: event)
+      Fabricate(:event_application, participation: participation, priority_1: event, priority_2: event)
       get :show, params: params
       button = dom.find_button "Abmelden"
       content = Capybara::Node::Simple.new(button["data-bs-content"])

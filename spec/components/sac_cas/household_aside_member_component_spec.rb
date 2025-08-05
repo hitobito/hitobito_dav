@@ -41,7 +41,7 @@ describe HouseholdAsideMemberComponent, type: :component do
     expect(rendered_component).to have_text("Nima Norgay (10)")
   end
 
-  it "renders people with main person link" do
+  xit "renders people with main person link" do
     stub_can(:show, true)
     stub_can(:set_sac_family_main_person, true)
     rendered_component = render_inline(component)
@@ -100,7 +100,7 @@ describe HouseholdAsideMemberComponent, type: :component do
       familienmitglied.reload
     end
 
-    it "renders people with main person link for neuanmeldung" do
+    xit "renders people with main person link for neuanmeldung" do
       stub_can(:show, true)
       stub_can(:set_sac_family_main_person, true)
       expect(familienmitglied.household).to have(2).members

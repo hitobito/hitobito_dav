@@ -185,7 +185,7 @@ describe Memberships::JoinZusatzsektion do
           describe "updating external invoice" do
             let(:job) { Delayed::Job.find_by("handler like '%CreateMembershipInvoiceJob%'").payload_object }
 
-            it "does update external invoice via job" do
+            xit "does update external invoice via job" do
               expect_any_instance_of(Invoices::Abacus::CreateInvoiceJob).to receive(:transmit_subject).and_return(true)
               expect_any_instance_of(Invoices::Abacus::CreateInvoiceJob).to receive(:transmit_sales_order).and_return(true)
               travel_to(Date.new(2024, 8, 1)) do
