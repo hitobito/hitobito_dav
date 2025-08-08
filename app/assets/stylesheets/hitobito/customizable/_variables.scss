@@ -26,10 +26,13 @@ $dav-body: #51565d;
 $dav-fill: #3b696d;
 $dav-footer: #363b44;
 $dav-footer-partner: #707680;
-$dav-primary: #2d5e20;
-$dav-primary-darken: #609e66;
-$dav-primary-light: #ddefd6;
+
+$dav-primary: #00652d;
+$dav-primary-darken: #2c8732;
+$dav-primary-light: #50AE2F;
+
 $dav-secondary: #9abd3d;
+
 $dav-text-base: #51565d;
 $dav-text-highlight: #3b696d;
 $dav-text-inverted: #fff;
@@ -37,7 +40,7 @@ $dav-text-inverted: #fff;
 $dav-black: $dav-footer;
 $dav-gray: $dav-footer-partner;
 $dav-gray-dark: darken($dav_gray, 20%);
-$dav-gray-light: lighten($dav_gray, 20%);
+$dav-gray-light: lighten($dav_gray, 40%);
 $dav-white: #eee;
 $dav-red: $sac_red;
 
