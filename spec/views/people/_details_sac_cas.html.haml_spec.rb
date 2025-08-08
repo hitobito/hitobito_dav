@@ -5,7 +5,7 @@
 
 require "spec_helper"
 
-describe "people/_details_dav.html.haml" do
+describe "people/_details_sac_cas.html.haml" do
   include FormatHelper
 
   let(:dom) do
