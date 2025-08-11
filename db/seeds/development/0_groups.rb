@@ -68,7 +68,7 @@ Group::ExterneKontakte.seed_once(:name, :parent_id, {
 
 sections_file = HitobitoDav::Wagon.root.join("db", "seeds", "development", "0_groups_sections.json")
 sections_data = JSON.load_file(sections_file).drop(1) # the first entry is for the root group
-sections_data = sections_data.take(10) if ENV['CI']
+sections_data = sections_data.take(10) if ENV["CI"]
 Group::Sektion.seed_once(:id, sections_data)
 
 # seed_section_hut(matterhorn, "Matterhornbiwak", 99999942)
