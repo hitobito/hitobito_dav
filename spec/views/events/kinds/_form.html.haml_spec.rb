@@ -27,7 +27,7 @@ describe "event/kinds/_form.html.haml" do
   end
 
   it "renders additional fields" do
-    expect(dom).to have_field "Unterkunft reservieren durch SAC"
+    expect(dom).to have_field "Unterkunft reservieren durch DAV"
     expect(dom).to have_select "Unterkunft"
     expect(dom).to have_select "Kostenstelle"
     expect(dom).to have_select "Kostenträger"

@@ -61,10 +61,10 @@ describe :events, js: true do
         .and change { event.price_special }.to(89.05)
 
       price_selector = "#main article"
-      find(price_selector).assert_text("Mitgliederpreis CHF 100.05")
-      find(price_selector).assert_text("Normalpreis CHF 100.15")
-      find(price_selector).assert_text("Subventionierter Preis CHF 90.05")
-      find(price_selector).assert_text("Spezialpreis CHF 89.05")
+      find(price_selector).assert_text("Mitgliederpreis EUR 100.05")
+      find(price_selector).assert_text("Normalpreis EUR 100.15")
+      find(price_selector).assert_text("Subventionierter Preis EUR 90.05")
+      find(price_selector).assert_text("Spezialpreis EUR 89.05")
     end
 
     it "displays j_s price labels in form when course is a j_s course" do
@@ -123,7 +123,7 @@ describe :events, js: true do
 
     it "selecting kind overrides default values" do
       visit new_group_event_path(group_id: group.id, event: {type: "Event::Course"})
-      expect(page).to have_checked_field "Unterkunft reservieren durch SAC"
+      expect(page).to have_checked_field "Unterkunft reservieren durch DAV"
       expect(page).to have_select "Unterkunft", selected: "ohne Übernachtung"
       expect(page).to have_field "Ausbildungstage", with: ""
       expect(page).to have_select "Kostenstelle", selected: "(keine)"
@@ -143,7 +143,7 @@ describe :events, js: true do
       expect(page).to have_field "Ausbildungstage", with: ""
       select "DMY (Dummy)"
 
-      expect(page).to have_unchecked_field "Unterkunft reservieren durch SAC"
+      expect(page).to have_unchecked_field "Unterkunft reservieren durch DAV"
       expect(page).to have_select "Unterkunft", selected: "Hütte"
       expect(page).to have_field "Ausbildungstage", with: "10.0"
       expect(page).to have_select "Kostenstelle", selected: "kurs-1 - Kurse"
@@ -162,7 +162,7 @@ describe :events, js: true do
       cost_unit = Fabricate(:cost_unit)
       cost_center = Fabricate(:cost_center)
       visit new_group_event_path(group_id: group.id, event: {type: "Event::Course"})
-      check "Unterkunft reservieren durch SAC"
+      check "Unterkunft reservieren durch DAV"
       select "Pension/Berggasthaus"
       fill_in "Ausbildungstage", with: 2
       select cost_center.to_s
@@ -181,7 +181,7 @@ describe :events, js: true do
       select "DMY (Dummy)"
 
       # Checkbox gets resetted as checked is the default state
-      expect(page).to have_unchecked_field "Unterkunft reservieren durch SAC"
+      expect(page).to have_unchecked_field "Unterkunft reservieren durch DAV"
       expect(page).to have_select "Unterkunft", selected: "Pension/Berggasthaus"
       expect(page).to have_field "Ausbildungstage", with: "2"
       expect(page).to have_select "Kostenstelle", selected: cost_center.to_s
@@ -201,7 +201,7 @@ describe :events, js: true do
       cost_unit = Fabricate(:cost_unit)
       cost_center = Fabricate(:cost_center)
       visit new_group_event_path(group_id: group.id, event: {type: "Event::Course"})
-      check "Unterkunft reservieren durch SAC"
+      check "Unterkunft reservieren durch DAV"
       select "Pension/Berggasthaus"
       fill_in "Ausbildungstage", with: 2
       select cost_center.to_s
@@ -220,7 +220,7 @@ describe :events, js: true do
       select "DMY (Dummy)"
       click_on "Werte übernehmen"
 
-      expect(page).to have_unchecked_field "Unterkunft reservieren durch SAC"
+      expect(page).to have_unchecked_field "Unterkunft reservieren durch DAV"
       expect(page).to have_select "Unterkunft", selected: "Hütte"
       expect(page).to have_field "Ausbildungstage", with: "10.0"
       expect(page).to have_select "Kostenstelle", selected: "kurs-1 - Kurse"

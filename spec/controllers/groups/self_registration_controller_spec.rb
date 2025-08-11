@@ -86,7 +86,7 @@ describe Groups::SelfRegistrationController do
 
     context "for signup wizard" do
       it "shows the correct message" do
-        expect(flash[:notice]).to eq "Du besitzt bereits eine SAC-Mitgliedschaft. Wenn du diese anpassen möchtest, kontaktiere bitte die SAC-Geschäftsstelle."
+        expect(flash[:notice]).to eq "Du besitzt bereits eine DAV-Mitgliedschaft. Wenn du diese anpassen möchtest, kontaktiere bitte die DAV-Geschäftsstelle."
       end
     end
 
@@ -113,7 +113,7 @@ describe Groups::SelfRegistrationController do
       end
 
       it "shows the correct message" do
-        expect(flash[:notice]).to eq "Du bist bereits Mitglied im SAC-Tourenportal. Daher kannst du keine weitere Mitgliedschaft erstellen."
+        expect(flash[:notice]).to eq "Du bist bereits Mitglied im DAV-Tourenportal. Daher kannst du keine weitere Mitgliedschaft erstellen."
       end
     end
 
@@ -121,7 +121,7 @@ describe Groups::SelfRegistrationController do
       let(:group) { Group::AboBasicLogin.first }
 
       it "shows the correct message" do
-        expect(flash[:notice]).to eq "Du hast bereits ein Login. Daher kannst du kein neues SAC/CAS Login erstellen."
+        expect(flash[:notice]).to eq "Du hast bereits ein Login. Daher kannst du kein neues DAV Login erstellen."
       end
     end
   end
@@ -154,7 +154,7 @@ describe Groups::SelfRegistrationController do
         get :show, params: wizard_params
 
         expect(response).to redirect_to(history_group_person_path(group_id: person.primary_group_id, id: person.id))
-        expect(flash[:notice]).to eq "Du besitzt bereits eine SAC-Mitgliedschaft. Wenn du diese anpassen möchtest, kontaktiere bitte die SAC-Geschäftsstelle."
+        expect(flash[:notice]).to eq "Du besitzt bereits eine DAV-Mitgliedschaft. Wenn du diese anpassen möchtest, kontaktiere bitte die DAV-Geschäftsstelle."
       end
     end
 
@@ -167,7 +167,7 @@ describe Groups::SelfRegistrationController do
         get :show, params: wizard_params
 
         expect(response).to redirect_to(history_group_person_path(group_id: person.primary_group_id, id: person.id))
-        expect(flash[:notice]).to eq "Du ist einer Familie zugeordnet. Kontaktiere bitte die SAC-Geschäftsstelle."
+        expect(flash[:notice]).to eq "Du ist einer Familie zugeordnet. Kontaktiere bitte die DAV-Geschäftsstelle."
       end
     end
 
@@ -179,7 +179,7 @@ describe Groups::SelfRegistrationController do
         get :show, params: wizard_params
 
         expect(response).to redirect_to(history_group_person_path(group_id: Group.root.id, id: person.id))
-        expect(flash[:notice]).to eq "Du besitzt bereits eine SAC-Mitgliedschaft. Wenn du diese anpassen möchtest, kontaktiere bitte die SAC-Geschäftsstelle."
+        expect(flash[:notice]).to eq "Du besitzt bereits eine DAV-Mitgliedschaft. Wenn du diese anpassen möchtest, kontaktiere bitte die DAV-Geschäftsstelle."
       end
     end
   end

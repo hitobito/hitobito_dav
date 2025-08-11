@@ -77,7 +77,7 @@ class Export::Pdf::Participations::KeyDataSheet::Sections::Table < Export::Pdf::
       make_subtable([[compensation_category_name(rate),
         event_days,
         rate.course_compensation_category.kind_label,
-        "à CHF",
+        "à EUR",
         compensation_rate(rate)]],
         column_widths:)]
   end
@@ -91,7 +91,7 @@ class Export::Pdf::Participations::KeyDataSheet::Sections::Table < Export::Pdf::
         "",
         make_subtable([[
           compensation_category_name(rate),
-          "CHF",
+          "EUR",
           compensation_rate(rate)
         ]], column_widths:)
       ]

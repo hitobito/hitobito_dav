@@ -21,7 +21,7 @@ describe "groups/self_registration/_abo_infos.html.haml" do
 
     it "renders subscription pricing info" do
       expect(dom).to have_text "Preis pro Jahr"
-      expect(dom).to have_text "CHF 60 inkl. MwSt."
+      expect(dom).to have_text "EUR 60 inkl. MwSt."
       expect(dom).to have_text "Versandsland"
       expect(dom).to have_text "Schweiz"
     end
@@ -29,7 +29,7 @@ describe "groups/self_registration/_abo_infos.html.haml" do
     it "does not count liechtenstein as international shipping" do
       wizard.person_fields.country = "LI"
       expect(dom).to have_text "Preis pro Jahr"
-      expect(dom).to have_text "CHF 60 inkl. MwSt."
+      expect(dom).to have_text "EUR 60 inkl. MwSt."
       expect(dom).to have_text "Versandsland"
       expect(dom).to have_text "Schweiz"
     end
@@ -46,7 +46,7 @@ describe "groups/self_registration/_abo_infos.html.haml" do
 
       it "renders subscription pricing info" do
         expect(dom).to have_text "Preis pro Jahr"
-        expect(dom).to have_text "CHF 76 inkl. MwSt."
+        expect(dom).to have_text "EUR 76 inkl. MwSt."
         expect(dom).to have_text "Versandsland"
         expect(dom).to have_text "Weltweit"
       end
@@ -58,7 +58,7 @@ describe "groups/self_registration/_abo_infos.html.haml" do
 
     it "renders subscription pricing info" do
       expect(dom).to have_text "Preis pro Jahr"
-      expect(dom).to have_text "CHF 50 inkl. MwSt."
+      expect(dom).to have_text "EUR 50 inkl. MwSt."
       expect(dom).not_to have_text "Versandsland"
     end
   end

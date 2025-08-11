@@ -77,13 +77,13 @@ describe Wizards::Memberships::JoinZusatzsektion do
         it "copies errors when invalid" do
           person.roles.destroy_all
           expect(wizard).not_to be_valid
-          expect(wizard.errors.full_messages).to eq ["Person muss Sac Mitglied sein"]
+          expect(wizard.errors.full_messages).to eq ["Person muss DAV Mitglied sein"]
         end
 
         it "does not fail when valid is called twice" do
           person.roles.destroy_all
           2.times { wizard.valid? }
-          expect(wizard.errors.full_messages).to eq ["Person muss Sac Mitglied sein"]
+          expect(wizard.errors.full_messages).to eq ["Person muss DAV Mitglied sein"]
         end
       end
     end
@@ -197,9 +197,9 @@ describe Wizards::Memberships::JoinZusatzsektion do
         expect(lines).to have(2).items
         expect(wizard.fee_presenter.total_amount.to_f).to eq(56)
         expect(lines.first.label).to eq "jährlicher Beitrag"
-        expect(lines.first.amount).to eq "CHF 56.00"
+        expect(lines.first.amount).to eq "EUR 56.00"
         expect(lines.last.label).to eq "Total erstmalig"
-        expect(lines.last.amount).to eq "CHF 56.00"
+        expect(lines.last.amount).to eq "EUR 56.00"
       end
     end
 
@@ -208,11 +208,11 @@ describe Wizards::Memberships::JoinZusatzsektion do
         expect(lines).to have(3).items
         expect(wizard.fee_presenter.total_amount.to_f).to eq(28)
         expect(lines.first.label).to eq "jährlicher Beitrag"
-        expect(lines.first.amount).to eq "CHF 56.00"
+        expect(lines.first.amount).to eq "EUR 56.00"
         expect(lines.second.label).to eq "- 50% Rabatt auf den jährlichen Beitrag"
-        expect(lines.second.amount).to eq "CHF 28.00"
+        expect(lines.second.amount).to eq "EUR 28.00"
         expect(lines.third.label).to eq "Total erstmalig"
-        expect(lines.third.amount).to eq "CHF 28.00"
+        expect(lines.third.amount).to eq "EUR 28.00"
       end
     end
   end

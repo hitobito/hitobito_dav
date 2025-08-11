@@ -18,7 +18,7 @@ RSpec.describe ApplicationMailer, type: :mailer do
         "Tanja Taker",
         "<footer>",
         "<address>",
-        "Monbijoustrasse 61"
+        "Anni-Albers-Straße 7"
       )
     end
   end

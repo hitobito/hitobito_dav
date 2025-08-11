@@ -23,11 +23,11 @@ describe "event/participations/_course_signup_aside.html.haml" do
 
     it "has correct information about current costs" do
       expect(dom).to have_text "Kurskosten"
-      expect(dom).to have_css "td.text-end", text: "CHF 1'300"
+      expect(dom).to have_css "td.text-end", text: "EUR 1'300"
       expect(dom).to have_text "- Subvention"
-      expect(dom).to have_css "td.text-end", text: "CHF 680"
+      expect(dom).to have_css "td.text-end", text: "EUR 680"
       expect(dom).to have_text "Total"
-      expect(dom).to have_css "td.text-end.fw-bold", text: "CHF 620"
+      expect(dom).to have_css "td.text-end.fw-bold", text: "EUR 620"
     end
 
     it "has no subsidized price" do
@@ -36,7 +36,7 @@ describe "event/participations/_course_signup_aside.html.haml" do
       expect(dom).not_to have_text "- Subvention"
 
       # check for correct total
-      expect(dom).to have_css "td.text-end.fw-bold", text: "CHF 1'300"
+      expect(dom).to have_css "td.text-end.fw-bold", text: "EUR 1'300"
     end
   end
 

@@ -421,7 +421,7 @@ describe "signup/sektion", :js do
       expect(page).to have_css "##{field[:id]}.is-invalid"
       expect(page).to have_css ".invalid-feedback", text: "Die E-Mail Adresse ist bereits registriert " \
         "und somit kann diese Person der Familie nicht hinzugefügt werden. Bitte wende dich an den Mitgliederdienst, " \
-        "um deine Familie zu erfassen: 031 370 18 18, mv@sac-cas.ch"
+        "um deine Familie zu erfassen: 031 370 18 18, info@alpenverein.de"
       fill_in "E-Mail", with: "eddy.hillary@hitobito.example.com"
       fill_in "Vorname", with: "Maxi"
       expect(page).not_to have_css ".invalid-feedback"
@@ -582,7 +582,7 @@ describe "signup/sektion", :js do
 
     it "creates including subscription if newsletter is checked" do
       click_button "Weiter"
-      check "Ich möchte den SAC-Newsletter abonnieren."
+      check "Ich möchte den DAV-Newsletter abonnieren."
       complete_last_page
       expect(page).to have_text("Du hast Dich erfolgreich registriert. Du erhältst in Kürze eine " \
         "E-Mail mit der Anleitung, wie Du Deinen Account freischalten kannst.")
@@ -796,21 +796,21 @@ describe "signup/sektion", :js do
       find(:label, "Land").click
       find(:option, text: "Vereinigte Staaten").click
       expect(page).to have_text("+ Gebühren Ausland")
-      expect(page).to have_text("CHF 23.00")
+      expect(page).to have_text("EUR 23.00")
     end
 
     it "doesnt display abroad_fees in aside for person from switzerland" do
       find(:label, "Land").click
       find_all(:option, text: "Schweiz").first.click
       expect(page).not_to have_text("+ Gebühren Ausland")
-      expect(page).not_to have_text("CHF 23.00")
+      expect(page).not_to have_text("EUR 23.00")
     end
 
     it "doesnt display abroad_fees in aside for person from liechtenstein" do
       find(:label, "Land").click
       find_all(:option, text: "Liechtenstein").first.click
       expect(page).not_to have_text("+ Gebühren Ausland")
-      expect(page).not_to have_text("CHF 23.00")
+      expect(page).not_to have_text("EUR 23.00")
     end
   end
 
@@ -826,7 +826,7 @@ describe "signup/sektion", :js do
 
       it "redirects to memberships tab with a flash message" do
         visit group_self_registration_path(group_id: group)
-        expect(page).to have_content("Du besitzt bereits eine SAC-Mitgliedschaft. Wenn du diese anpassen möchtest, kontaktiere bitte die SAC-Geschäftsstelle.")
+        expect(page).to have_content("Du besitzt bereits eine DAV-Mitgliedschaft. Wenn du diese anpassen möchtest, kontaktiere bitte die DAV-Geschäftsstelle.")
       end
     end
 

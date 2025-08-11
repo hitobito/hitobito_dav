@@ -57,7 +57,7 @@ describe :self_registration, js: true do
     click_button "Weiter"
     complete_main_person_form
     expect do
-      click_button "SAC-KONTO ERSTELLEN"
+      click_button "DAV-KONTO ERSTELLEN"
       expect(page).to have_css "#error_explanation, #flash > .alert"
     end.to change { Person.count }.by(1)
     expect(Person.last.roles.last.end_on).to be_nil
@@ -68,10 +68,10 @@ describe :self_registration, js: true do
     fill_in "E-Mail", with: "max.muster@hitobito.example.com"
     click_button "Weiter"
     complete_main_person_form
-    check "Ich möchte den SAC-Newsletter abonnieren."
+    check "Ich möchte den DAV-Newsletter abonnieren."
 
     expect do
-      click_button "SAC-KONTO ERSTELLEN"
+      click_button "DAV-KONTO ERSTELLEN"
       expect(page).to have_css "#error_explanation, #flash > .alert"
     end.to change { Person.count }.by(1)
       .and change { newsletter.reload.subscriptions.including.count }.by(1)
@@ -82,10 +82,10 @@ describe :self_registration, js: true do
     fill_in "E-Mail", with: "max.muster@hitobito.example.com"
     click_button "Weiter"
     complete_main_person_form
-    uncheck "Ich möchte den SAC-Newsletter abonnieren."
+    uncheck "Ich möchte den DAV-Newsletter abonnieren."
 
     expect do
-      click_button "SAC-KONTO ERSTELLEN"
+      click_button "DAV-KONTO ERSTELLEN"
       expect(page).to have_css "#error_explanation, #flash > .alert"
     end.to change { Person.count }.by(1)
 
@@ -100,6 +100,6 @@ describe :self_registration, js: true do
   it "redirects if logged in" do
     sign_in(people(:admin))
     visit group_self_registration_path(group_id: group)
-    expect(page).to have_content("Du hast bereits ein Login. Daher kannst du kein neues SAC/CAS Login erstellen.")
+    expect(page).to have_content("Du hast bereits ein Login. Daher kannst du kein neues DAV Login erstellen.")
   end
 end

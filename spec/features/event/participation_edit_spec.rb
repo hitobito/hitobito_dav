@@ -47,9 +47,9 @@ describe "participation edit page", :js do
       visit participation_path
       within "#event_participation_price_category" do
         expect(page).not_to have_css("option", text: "Keine Kosten")
-        expect(page).to have_css("option[selected]", text: "Mitgliederpreis CHF 10.00")
-        expect(page).to have_css("option", text: "Normalpreis CHF 20.00")
-        select "Normalpreis CHF 20.00"
+        expect(page).to have_css("option[selected]", text: "Mitgliederpreis EUR 10.00")
+        expect(page).to have_css("option", text: "Normalpreis EUR 20.00")
+        select "Normalpreis EUR 20.00"
       end
       expect do
         click_on("Speichern")
@@ -62,9 +62,9 @@ describe "participation edit page", :js do
 
       visit participation_path
       within "#event_participation_price_category" do
-        expect(page).to have_css("option[selected]", text: "Bisheriger Mitgliederpreis CHF 10.00")
-        expect(page).to have_css("option", text: "Mitgliederpreis CHF 15.00")
-        expect(page).to have_css("option", text: "Normalpreis CHF 20.00")
+        expect(page).to have_css("option[selected]", text: "Bisheriger Mitgliederpreis EUR 10.00")
+        expect(page).to have_css("option", text: "Mitgliederpreis EUR 15.00")
+        expect(page).to have_css("option", text: "Normalpreis EUR 20.00")
       end
       expect do
         click_on("Speichern")
@@ -77,8 +77,8 @@ describe "participation edit page", :js do
 
       visit participation_path
       within "#event_participation_price_category" do
-        expect(page).to have_css("option[selected]", text: "Bisheriger Mitgliederpreis CHF 10.00")
-        select "Mitgliederpreis CHF 15.00"
+        expect(page).to have_css("option[selected]", text: "Bisheriger Mitgliederpreis EUR 10.00")
+        select "Mitgliederpreis EUR 15.00"
       end
       expect do
         click_on("Speichern")
@@ -90,8 +90,8 @@ describe "participation edit page", :js do
       event.kind.kind_category.update_column(:j_s_course, true)
       visit participation_path
       within "#event_participation_price_category" do
-        expect(page).to have_css("option", text: "J&S P-Mitgliederpreis CHF 10.00")
-        expect(page).to have_css("option", text: "J&S P-Normalpreis CHF 20.00")
+        expect(page).to have_css("option", text: "J&S P-Mitgliederpreis EUR 10.00")
+        expect(page).to have_css("option", text: "J&S P-Normalpreis EUR 20.00")
       end
     end
   end

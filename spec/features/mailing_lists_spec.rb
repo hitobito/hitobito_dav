@@ -31,16 +31,16 @@ describe "Mailing list edit page", js: true do
 
       find("h2", text: "Globale Bedingungen").click_link
       click_link "Rechnungsempfänger"
-      check "Rechnungsempfänger SAC Mitgliedschaft"
+      check "Rechnungsempfänger DAV Mitgliedschaft"
       click_button "Speichern"
-      expect(page).to have_text "Rechnungsempfänger SAC Mitgliedschaft"
+      expect(page).to have_text "Rechnungsempfänger DAV Mitgliedschaft"
 
       find("h2", text: "Globale Bedingungen").click_link
-      uncheck "Rechnungsempfänger SAC Mitgliedschaft"
+      uncheck "Rechnungsempfänger DAV Mitgliedschaft"
       check "Rechnungsempfänger Zusatzsektion"
       click_button "Speichern"
       expect(page).to have_text "Rechnungsempfänger Zusatzsektion"
-      expect(page).to have_no_text "Rechnungsempfänger SAC Mitgliedschaft"
+      expect(page).to have_no_text "Rechnungsempfänger DAV Mitgliedschaft"
     end
   end
 

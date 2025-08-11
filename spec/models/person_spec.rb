@@ -532,7 +532,7 @@ describe Person do
             person.update!(birthday: Time.zone.today)
           end.not_to change(person.data_quality_issues, :count)
           expect(person.reload.data_quality_issues.first.message)
-            .to eq("Geburtsdatum liegt weniger als 6 Jahre vor dem SAC-Eintritt")
+            .to eq("Geburtsdatum liegt weniger als 6 Jahre vor dem DAV-Eintritt")
           expect(person.data_quality).to eq("warning")
         end
 

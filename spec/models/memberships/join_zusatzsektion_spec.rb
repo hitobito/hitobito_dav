@@ -42,7 +42,7 @@ describe Memberships::JoinZusatzsektion do
 
     it "is invalid if person is not an sac member" do
       expect(join_sektion).not_to be_valid
-      expect(errors).to eq ["Person muss Sac Mitglied sein"]
+      expect(errors).to eq ["Person muss DAV Mitglied sein"]
     end
 
     it "is valid with membership in different section" do
@@ -65,7 +65,7 @@ describe Memberships::JoinZusatzsektion do
           create_role(:bluemlisalp_neuanmeldungen_sektion, "Neuanmeldung")
           expect(join_sektion).not_to be_valid
           expect(errors).to eq [
-            "Person muss Sac Mitglied sein",
+            "Person muss DAV Mitglied sein",
             "Person ist bereits Mitglied der Sektion oder hat ein offenes Beitrittsgesuch"
           ]
         end
@@ -74,7 +74,7 @@ describe Memberships::JoinZusatzsektion do
           create_role(:bluemlisalp_neuanmeldungen_nv, "Neuanmeldung")
           expect(join_sektion).not_to be_valid
           expect(errors).to eq [
-            "Person muss Sac Mitglied sein",
+            "Person muss DAV Mitglied sein",
             "Person ist bereits Mitglied der Sektion oder hat ein offenes Beitrittsgesuch"
           ]
         end
@@ -90,7 +90,7 @@ describe Memberships::JoinZusatzsektion do
           create_role(:bluemlisalp_ortsgruppe_ausserberg_neuanmeldungen_nv, "Neuanmeldung")
           expect(join_sektion).not_to be_valid
           expect(errors).to eq [
-            "Person muss Sac Mitglied sein"
+            "Person muss DAV Mitglied sein"
           ]
         end
       end
@@ -139,7 +139,7 @@ describe Memberships::JoinZusatzsektion do
     context "invalid" do
       it "save returns false and populates errors" do
         expect(join_sektion.save).to eq false
-        expect(join_sektion.errors.full_messages).to eq ["Person muss Sac Mitglied sein"]
+        expect(join_sektion.errors.full_messages).to eq ["Person muss DAV Mitglied sein"]
       end
 
       it "save! raises" do

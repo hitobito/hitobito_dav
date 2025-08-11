@@ -23,7 +23,7 @@ gsw:
       phone: "+49 89 140030"
       phone_self_registration: "+49 89 140030"
       email: "info@alpenverein.de"
-      email_mv: "info@alpenverein.deh"
+      email_mv: "info@alpenverein.de"
       website: "https://www.alpenverein.de/"
     title_event/tour: Tour
 
@@ -1146,7 +1146,7 @@ gsw:
         confirm_email_before_logging_in: >
           Bitte bestätige Deine E-Mail-Adresse, bevor Du fortfahren kannst. Wir haben Dir soeben eine Bestätigungs-E-Mail
           geschickt.<br/> Falls deine E-Mail-Adresse nicht mehr gültig ist oder du (auch im SPAM-Ordner) keine E-Mail erhalten
-          hast: Wende dich bitte mit Angabe deiner E-Mail an <a href="mail_to:mv@sac-cas.ch">mv@sac-cas.ch</a>.
+          hast: Wende dich bitte mit Angabe deiner E-Mail an <a href="mail_to:info@alpenverein.de">info@alpenverein.de</a>.
 
   doorkeeper:
     scopes:
@@ -1338,7 +1338,7 @@ gsw:
         cancel_info: >-
           Bist du sicher, dass du mit der Abmeldung fortfahren möchtest? Eine Abmeldung
           kann nicht rückgängig gemacht werden. Mit der Abmeldung werden Bearbeitungs-
-          und Annullationsgebühren in der Höhe von CHF %{cancellation_cost} in Rechnung gestellt.
+          und Annullationsgebühren in der Höhe von EUR %{cancellation_cost} in Rechnung gestellt.
 
     participation_contact_datas:
       fields:
@@ -1461,7 +1461,7 @@ gsw:
       abo_infos:
         annual_price_header: Preis pro Jahr
         delivery_country_header: Versandsland
-        price_with_vat: CHF %{amount} inkl. MwSt.
+        price_with_vat: EUR %{amount} inkl. MwSt.
         switzerland: Schweiz
         international: Weltweit
         duration_title: Dauer und Erneuerung des Abonnements
@@ -1701,7 +1701,7 @@ gsw:
         sections_info_html: >-
           Hier kannst du deine Mitgliedschaften verwalten.
           Informationen zu den verschiedenen DAV Sektionen findest du unter
-          <a target="blank" href="https://www.sac-cas.ch/de/der-sac/sektionen">https://www.sac-cas.ch/de/der-sac/sektionen</a>-
+          <a target="blank" href="https://www.alpenverein.de/thema/sektionensuche/">https://www.alpenverein.de/thema/sektionensuche/</a>
 
   abo_magazin_invoices:
     create:
@@ -1864,7 +1864,7 @@ gsw:
       sac_cas/role/mitglied_common:
         no_permission: Für einen Austritt musst du dich an den Mitgliederdienst der Sektion wenden
       group/abo_magazin/abonnent:
-        no_permission: "Eine Kündigung kann nur über den Mitgliederdienst des DAV erfolgen. Bitte schreibe eine E-Mail mit dem gewünschten Kündigungstermin sowie deinem Vor- und Nachnamen an mv@sac-cas.ch."
+        no_permission: "Eine Kündigung kann nur über den Mitgliederdienst des DAV erfolgen. Bitte schreibe eine E-Mail mit dem gewünschten Kündigungstermin sowie deinem Vor- und Nachnamen an info@alpenverein.de."
 
   sac_membership_configs:
     form:
@@ -2015,7 +2015,7 @@ gsw:
             add: Weiteres Familienmitglied hinzufügen
             email_taken: >-
               Die E-Mail Adresse ist bereits registriert und somit kann diese Person der Familie nicht hinzugefügt
-              werden. Bitte wende dich an den Mitgliederdienst, um deine Familie zu erfassen: 031 370 18 18, mv@sac-cas.ch
+              werden. Bitte wende dich an den Mitgliederdienst, um deine Familie zu erfassen: 031 370 18 18, info@alpenverein.de
             membership_info_box: >-
               Indem du weitere Personen hinzufügst, wählst du eine Familienmitgliedschaft. Diese ist für
               max. 2 Erwachsene ab 23 Jahren und beliebig viele Kinder im Alter zwischen 6 und 17 Jahren möglich.

@@ -406,7 +406,7 @@ describe Invoices::Abacus::SubjectInterface do
       }],
       "Customers" => [{
         "@odata.etag" => "W/\"2046f721492e448539278c6392cf450242ba80e3077f8b701dcbcfab8a06207c\"",
-        "Id" => person.id, "SubjectId" => person.id, "DefaultCurrencyId" => "CHF", "Status" => "Active", "InactiveFrom" => nil,
+        "Id" => person.id, "SubjectId" => person.id, "DefaultCurrencyId" => "EUR", "Status" => "Active", "InactiveFrom" => nil,
         "MultipleCurrenciesActive" => false, "DivisionId" => 0, "DisabledForPayout" => false, "ResponsiblePersonId" => 0,
         "CustomerCondition" => {"PaymentConditionId" => 1, "DiscountToleranceDays" => 0, "DiscountTolerancePercent" => 0.0},
         "CustomerCreditLimit" => {"CheckCreditRating" => false},

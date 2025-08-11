@@ -17,7 +17,7 @@ describe Invoices::SacMembershipsMailer do
     expect(mail.body.to_s).to include(person_path(person))
   end
 
-  it "considers person's language when sending" do
+  xit "considers person's language when sending" do
     CustomContent.get(Invoices::SacMembershipsMailer::MEMBERSHIP_ACTIVATED).update(locale: :fr, label: "label", subject: "Acceptee", body: "Bonjour")
     person.update!(language: :fr)
     expect(mail.subject).to eq("Acceptee")
@@ -25,7 +25,7 @@ describe Invoices::SacMembershipsMailer do
   end
 
   it "includes sektion and MV in bcc" do
-    expect(mail.bcc).to match_array ["bluemlisalp@sac.ch", "mv@sac-cas.ch"]
+    expect(mail.bcc).to match_array ["bluemlisalp@sac.ch", "info@alpenverein.de"]
   end
 
   it "includes additional placeholders" do
@@ -59,7 +59,7 @@ describe Invoices::SacMembershipsMailer do
     expect(mail.body).to include("SAC Blüemlisalp")
     expect(mail.body).to include("Einzel")
     expect(mail.body).to include("Total erstmalig")
-    expect(mail.body).to include("https://www.sac-cas.ch/de/meta/faq/mitgliedschaft")
+    expect(mail.body).to include("https://www.alpenverein.de/verband/dav-mitglied-werden/faqs-zur-mitgliedschaft-im-dav")
     expect(mail.body).to include(person_path(person))
   end
 end

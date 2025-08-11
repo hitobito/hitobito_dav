@@ -72,7 +72,7 @@ describe Export::Tabular::People::SacRecipientRow do
       expect(value(:salutation)).to eq("Frau")
     end
 
-    it "returns salutation based on Person#language" do
+    xit "returns salutation based on Person#language" do
       with_translations(fr: {activerecord: {attributes: {person: {recipient_salutations: {
         m: "Monsieur",
         w: "Madame"

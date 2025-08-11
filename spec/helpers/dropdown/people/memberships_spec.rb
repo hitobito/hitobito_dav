@@ -103,7 +103,7 @@ describe Dropdown::People::Memberships do
 
     it "is contains links if person is permitted" do
       stub_can_create(Wizards::Memberships::TerminateSacMembershipWizard, true)
-      expect(menu).to have_link "SAC-Mitgliedschaft beenden"
+      expect(menu).to have_link "DAV-Mitgliedschaft beenden"
     end
   end
 
@@ -117,18 +117,18 @@ describe Dropdown::People::Memberships do
     it "does not contain link if person is not permitted" do
       person.sac_membership.stammsektion_role.update_column(:terminated, true)
       expect(ability).to receive(:can?).with(:create, Memberships::UndoTermination).and_return(false)
-      expect(menu).to have_no_link "SAC-Mitgliedschaft reaktivieren"
+      expect(menu).to have_no_link "DAV-Mitgliedschaft reaktivieren"
     end
 
     it "does not contain link if membership stammsektion role is not terminated" do
       expect(ability).to receive(:can?).with(:create, Memberships::UndoTermination).and_return(false)
-      expect(menu).to have_no_link "SAC-Mitgliedschaft reaktivieren"
+      expect(menu).to have_no_link "DAV-Mitgliedschaft reaktivieren"
     end
 
     it "is contains link if person is permitted" do
       person.sac_membership.stammsektion_role.update_column(:terminated, true)
       expect(ability).to receive(:can?).with(:create, Memberships::UndoTermination).and_return(true)
-      expect(menu).to have_link "SAC-Mitgliedschaft reaktivieren"
+      expect(menu).to have_link "DAV-Mitgliedschaft reaktivieren"
     end
   end
 end

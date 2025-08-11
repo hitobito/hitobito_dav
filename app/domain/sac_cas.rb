@@ -109,7 +109,7 @@ module SacCas
 
   ###
 
-  MV_EMAIL = "mv@sac-cas.ch"
+  MV_EMAIL = "info@alpenverein.de"
   MAILING_LIST_SAC_NEWSLETTER_INTERNAL_KEY = "sac_newsletter"
   MAILING_LIST_SAC_INSIDE_INTERNAL_KEY = "sac_inside"
   MAILING_LIST_TOURENLEITER_INTERNAL_KEY = "tourenleiter"

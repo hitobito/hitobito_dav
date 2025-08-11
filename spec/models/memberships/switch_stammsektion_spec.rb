@@ -42,7 +42,7 @@ describe Memberships::SwitchStammsektion do
 
     it "is invalid if person is not an sac member" do
       expect(switch).not_to be_valid
-      expect(errors).to eq ["Person muss Sac Mitglied sein"]
+      expect(errors).to eq ["Person muss DAV Mitglied sein"]
     end
 
     context "with membership in different section" do
@@ -109,7 +109,7 @@ describe Memberships::SwitchStammsektion do
     context "invalid" do
       it "save returns false and populates errors" do
         expect(switch.save).to eq false
-        expect(switch.errors.full_messages).to eq ["Person muss Sac Mitglied sein"]
+        expect(switch.errors.full_messages).to eq ["Person muss DAV Mitglied sein"]
       end
 
       it "save! raises" do

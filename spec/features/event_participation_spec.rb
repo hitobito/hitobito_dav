@@ -116,7 +116,7 @@ describe :event_participation, js: true do
         within(".popover-body") do
           expect(page).to have_text("Bist du sicher, dass du mit der Abmeldung fortfahren möchtest? " \
                                     "Eine Abmeldung kann nicht rückgängig gemacht werden. " \
-                                    "Mit der Abmeldung werden Bearbeitungs- und Annullationsgebühren in der Höhe von CHF 20.0 in Rechnung gestellt.")
+                                    "Mit der Abmeldung werden Bearbeitungs- und Annullationsgebühren in der Höhe von EUR 20.0 in Rechnung gestellt.")
         end
       end
 
@@ -136,7 +136,7 @@ describe :event_participation, js: true do
         within(".popover-body") do
           expect(page).to have_text("Bist du sicher, dass du mit der Abmeldung fortfahren möchtest? " \
                                     "Eine Abmeldung kann nicht rückgängig gemacht werden. " \
-                                    "Mit der Abmeldung werden Bearbeitungs- und Annullationsgebühren in der Höhe von CHF 0.0 in Rechnung gestellt.")
+                                    "Mit der Abmeldung werden Bearbeitungs- und Annullationsgebühren in der Höhe von EUR 0.0 in Rechnung gestellt.")
         end
       end
 

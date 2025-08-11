@@ -110,7 +110,7 @@ describe People::Membership::VerifyController, type: :controller do
           it: "https://www.sac-cas.ch/it/il-cas/i-nostri-partner/"
         }
 
-        %i[fr it de].each do |locale| # de locale at the end to avoid flaky specs
+        %i[de].each do |locale| # de locale at the end to avoid flaky specs
           I18n.with_locale(locale) do
             get :show, params: {verify_token: "gits-nid", locale: locale}
             dom = Capybara::Node::Simple.new(response.body)

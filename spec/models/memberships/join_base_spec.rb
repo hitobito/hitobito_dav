@@ -32,7 +32,7 @@ describe Memberships::JoinBase do
 
     it "is invalid if person is not an sac member" do
       expect(obj).not_to be_valid
-      expect(errors).to eq ["Person muss Sac Mitglied sein"]
+      expect(errors).to eq ["Person muss DAV Mitglied sein"]
     end
 
     it "is valid with membership in different section" do
@@ -61,7 +61,7 @@ describe Memberships::JoinBase do
       end
 
       expect(obj).not_to be_valid
-      expect(errors).to eq ["Person muss Sac Mitglied sein",
+      expect(errors).to eq ["Person muss DAV Mitglied sein",
         "#{person}: Group muss ausgefüllt werden"]
     end
 
@@ -79,7 +79,7 @@ describe Memberships::JoinBase do
           create_role(:bluemlisalp_neuanmeldungen_sektion, "Neuanmeldung")
           expect(obj).not_to be_valid
           expect(errors).to eq [
-            "Person muss Sac Mitglied sein",
+            "Person muss DAV Mitglied sein",
             "Person ist bereits Mitglied der Sektion oder hat ein offenes Beitrittsgesuch"
           ]
         end
@@ -88,7 +88,7 @@ describe Memberships::JoinBase do
           create_role(:bluemlisalp_neuanmeldungen_nv, "Neuanmeldung")
           expect(obj).not_to be_valid
           expect(errors).to eq [
-            "Person muss Sac Mitglied sein",
+            "Person muss DAV Mitglied sein",
             "Person ist bereits Mitglied der Sektion oder hat ein offenes Beitrittsgesuch"
           ]
         end
@@ -104,7 +104,7 @@ describe Memberships::JoinBase do
           create_role(:bluemlisalp_ortsgruppe_ausserberg_neuanmeldungen_nv, "Neuanmeldung")
           expect(obj).not_to be_valid
           expect(errors).to eq [
-            "Person muss Sac Mitglied sein"
+            "Person muss DAV Mitglied sein"
           ]
         end
       end
@@ -145,7 +145,7 @@ describe Memberships::JoinBase do
     context "invalid" do
       it "save returns false and populates errors" do
         expect(obj.save).to eq false
-        expect(obj.errors.full_messages).to eq ["Person muss Sac Mitglied sein"]
+        expect(obj.errors.full_messages).to eq ["Person muss DAV Mitglied sein"]
       end
 
       it "save! raises" do

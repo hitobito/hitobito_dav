@@ -70,7 +70,7 @@ describe "signup/abo_touren_portal_wizard" do
     fill_in "E-Mail", with: "max.muster@hitobito.example.com"
     click_on "Weiter"
     complete_main_person_form
-    check "Ich möchte den SAC-Newsletter abonnieren."
+    check "Ich möchte den DAV-Newsletter abonnieren."
     expect do
       click_on "Registrieren"
       expect(page).to have_css "#error_explanation, #flash > .alert"
@@ -83,7 +83,7 @@ describe "signup/abo_touren_portal_wizard" do
     fill_in "E-Mail", with: "max.muster@hitobito.example.com"
     click_on "Weiter"
     complete_main_person_form
-    uncheck "Ich möchte den SAC-Newsletter abonnieren."
+    uncheck "Ich möchte den DAV-Newsletter abonnieren."
     expect do
       click_on "Registrieren"
       expect(page).to have_css "#error_explanation, #flash > .alert"
@@ -127,6 +127,6 @@ describe "signup/abo_touren_portal_wizard" do
     sign_in(people(:mitglied))
     Group::AboTourenPortal::Abonnent.create!(person: people(:mitglied), group: group)
     visit group_self_registration_path(group_id: group)
-    expect(page).to have_content("Du bist bereits Mitglied im SAC-Tourenportal. Daher kannst du keine weitere Mitgliedschaft erstellen.")
+    expect(page).to have_content("Du bist bereits Mitglied im DAV-Tourenportal. Daher kannst du keine weitere Mitgliedschaft erstellen.")
   end
 end

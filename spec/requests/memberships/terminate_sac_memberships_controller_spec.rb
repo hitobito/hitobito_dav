@@ -27,13 +27,13 @@ describe Memberships::TerminateSacMembershipsController do
 
     def expect_summary_step
       expect(response).to be_successful
-      expect(response.body).to include "SAC-Mitgliedschaft beenden"
+      expect(response.body).to include "DAV-Mitgliedschaft beenden"
       expect(response.body).to include "Austritt beantragen"
     end
 
     def expect_date_select_step
       expect(response).to be_successful
-      expect(response.body).to include "SAC-Mitgliedschaft beenden"
+      expect(response.body).to include "DAV-Mitgliedschaft beenden"
       expect(response.body).to include "Austrittsdatum"
     end
 
@@ -147,7 +147,7 @@ describe Memberships::TerminateSacMembershipsController do
           .and change { role.terminated }.to(true)
           .and change { role.termination_reason_id }.from(nil).to(termination_reason_id)
         expect(response).to redirect_to person_path(person, format: :html)
-        expect(flash[:notice]).to eq "Deine SAC-Mitgliedschaft wurde gekündet."
+        expect(flash[:notice]).to eq "Deine DAV-Mitgliedschaft wurde gekündet."
       end
     end
 
@@ -171,7 +171,7 @@ describe Memberships::TerminateSacMembershipsController do
           .to change(Role, :count).by(-2)
           .and change { role.termination_reason_id }.from(nil).to(termination_reason_id)
         expect(response).to redirect_to person_path(person, format: :html)
-        expect(flash[:notice]).to eq "Deine SAC-Mitgliedschaft wurde gekündet."
+        expect(flash[:notice]).to eq "Deine DAV-Mitgliedschaft wurde gekündet."
       end
     end
 
@@ -189,7 +189,7 @@ describe Memberships::TerminateSacMembershipsController do
           .to change(Role, :count).by(-2)
           .and change { role.termination_reason_id }.from(nil).to(termination_reason_id)
         expect(response).to redirect_to person_path(person, format: :html)
-        expect(flash[:notice]).to eq "Deine SAC-Mitgliedschaft wurde gekündet."
+        expect(flash[:notice]).to eq "Deine DAV-Mitgliedschaft wurde gekündet."
       end
     end
 
@@ -207,7 +207,7 @@ describe Memberships::TerminateSacMembershipsController do
           .to change(Role, :count).by(-2)
           .and change { role.termination_reason_id }.from(nil).to(termination_reason_id)
         expect(response).to redirect_to person_path(person, format: :html)
-        expect(flash[:notice]).to eq "Deine SAC-Mitgliedschaft wurde gekündet."
+        expect(flash[:notice]).to eq "Deine DAV-Mitgliedschaft wurde gekündet."
       end
     end
 
@@ -245,7 +245,7 @@ describe Memberships::TerminateSacMembershipsController do
           .and change { role.terminated }.to(true)
           .and change { role.termination_reason_id }.from(nil).to(termination_reason_id)
         expect(response).to redirect_to person_path(person, format: :html)
-        expect(flash[:notice]).to eq "Eure 3 SAC-Mitgliedschaften wurden gekündet."
+        expect(flash[:notice]).to eq "Eure 3 DAV-Mitgliedschaften wurden gekündet."
       end
     end
   end

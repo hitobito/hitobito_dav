@@ -24,7 +24,7 @@ describe Invoices::Abacus::CreateYearlyAboAlpenInvoicesJob do
   let!(:abonnent_4) { Fabricate(:person, abacus_subject_key: "126", country: "CH") }
   let!(:abonnent_role_4) { create_role(abonnent_4) }
 
-  let!(:abonnent_5) { Fabricate(:person, abacus_subject_key: "127", country: "CH", language: "fr") }
+  let!(:abonnent_5) { Fabricate(:person, abacus_subject_key: "127", country: "CH") }
   let!(:abonnent_role_5) { create_role(abonnent_5) }
 
   let!(:abonnent_6) { Fabricate(:person, abacus_subject_key: "128", country: "CH") }

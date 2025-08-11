@@ -9,7 +9,7 @@
 %div.mb-3{data: { controller: 'forwarder' }}
 
   = f.input_field(:subsidy,
-      caption: t('.subsidy_field', amount: number_to_currency(entry.event.price_subsidized, unit: 'CHF', format: '%u %n')),
+      caption: t('.subsidy_field', amount: number_to_currency(entry.event.price_subsidized, unit: 'EUR', format: '%u %n')),
       data: { action: 'forwarder#click' })
 
   = button_tag(Event::Participation.human_attribute_name(:subsidy),

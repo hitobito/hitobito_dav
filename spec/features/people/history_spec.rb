@@ -19,9 +19,9 @@ describe "person history page" do
     it "shows info header about sektionen" do
       visit history_group_person_path(group_id: geschaeftsstelle.id, id: admin.id)
       expect(page).to have_text "Hier kannst du deine Mitgliedschaften verwalten. " \
-        "Informationen zu den verschiedenen SAC Sektionen findest du unter " \
-        "https://www.sac-cas.ch/de/der-sac/sektionen"
-      expect(page).to have_link "https://www.sac-cas.ch/de/der-sac/sektionen"
+        "Informationen zu den verschiedenen DAV Sektionen findest du unter " \
+        "https://www.alpenverein.de/thema/sektionensuche/"
+      expect(page).to have_link "https://www.alpenverein.de/thema/sektionensuche/"
     end
   end
 
@@ -29,9 +29,9 @@ describe "person history page" do
     it "shows info header about sektionen" do
       visit history_group_person_path(group_id: mitglieder.id, id: mitglied.id)
       expect(page).to have_text "Hier kannst du deine Mitgliedschaften verwalten. " \
-        "Informationen zu den verschiedenen SAC Sektionen findest du unter " \
-        "https://www.sac-cas.ch/de/der-sac/sektionen"
-      expect(page).to have_link "https://www.sac-cas.ch/de/der-sac/sektionen"
+        "Informationen zu den verschiedenen DAV Sektionen findest du unter " \
+        "https://www.alpenverein.de/thema/sektionensuche/"
+      expect(page).to have_link "https://www.alpenverein.de/thema/sektionensuche/"
     end
   end
 

@@ -30,13 +30,13 @@ describe "terminate sac membership wizard", js: true do
       choose "Sofort"
       click_button "Weiter"
       select termination_reason.text
-      check "SAC-Newsletter weiterhin erhalten"
-      check "Ich möchte, dass meine Daten nach meinem Austritt aus dem SAC erhalten bleiben"
-      check "über Spendenaktionen vom SAC informiert werden"
+      check "DAV-Newsletter weiterhin erhalten"
+      check "Ich möchte, dass meine Daten nach meinem Austritt aus dem DAV erhalten bleiben"
+      check "über Spendenaktionen vom DAV informiert werden"
       check "Wiedereintritt die Eintrittsgebühr"
       expect do
         click_button "Austritt beantragen"
-        expect(page).to have_content "Deine SAC-Mitgliedschaft wurde gekündet."
+        expect(page).to have_content "Deine DAV-Mitgliedschaft wurde gekündet."
         role.reload
       end
         # ends Mitglied, MitgliedZusatzsektion roles, creates BasicLogin role
@@ -52,17 +52,17 @@ describe "terminate sac membership wizard", js: true do
       within("#role_#{role.id}") do
         click_link "Austritt"
       end
-      expect(page).to have_title "SAC-Mitgliedschaft beenden"
+      expect(page).to have_title "DAV-Mitgliedschaft beenden"
       choose "Auf 31.12.#{Date.current.year}"
       click_button "Weiter"
       select termination_reason.text
-      check "SAC-Newsletter weiterhin erhalten"
-      check "Ich möchte, dass meine Daten nach meinem Austritt aus dem SAC erhalten bleiben"
-      check "über Spendenaktionen vom SAC informiert werden"
+      check "DAV-Newsletter weiterhin erhalten"
+      check "Ich möchte, dass meine Daten nach meinem Austritt aus dem DAV erhalten bleiben"
+      check "über Spendenaktionen vom DAV informiert werden"
       check "Wiedereintritt die Eintrittsgebühr"
       expect do
         click_button "Austritt beantragen"
-        expect(page).to have_content "Deine SAC-Mitgliedschaft wurde gekündet."
+        expect(page).to have_content "Deine DAV-Mitgliedschaft wurde gekündet."
         role.reload
       end
         .to change { role.termination_reason }.from(nil).to(termination_reason)
@@ -71,9 +71,9 @@ describe "terminate sac membership wizard", js: true do
     end
 
     describe "data retention checkboxes" do
-      let(:data_retention_checkbox) { find(:checkbox, "Ich möchte, dass meine Daten nach meinem Austritt aus dem SAC erhalten bleiben") }
-      let(:newsletter_checkbox) { find(:checkbox, "SAC-Newsletter weiterhin erhalten") }
-      let(:fundraising_checkbox) { find(:checkbox, "über Spendenaktionen vom SAC informiert werden") }
+      let(:data_retention_checkbox) { find(:checkbox, "Ich möchte, dass meine Daten nach meinem Austritt aus dem DAV erhalten bleiben") }
+      let(:newsletter_checkbox) { find(:checkbox, "DAV-Newsletter weiterhin erhalten") }
+      let(:fundraising_checkbox) { find(:checkbox, "über Spendenaktionen vom DAV informiert werden") }
 
       before do
         visit history_group_person_path(group_id: group.id, id: person.id)
@@ -85,32 +85,32 @@ describe "terminate sac membership wizard", js: true do
       end
 
       it "checks data_retention_consent when subscribe_newsletter is checked" do
-        check "SAC-Newsletter weiterhin erhalten"
+        check "DAV-Newsletter weiterhin erhalten"
         expect(data_retention_checkbox).to be_checked
-        uncheck "SAC-Newsletter weiterhin erhalten"
+        uncheck "DAV-Newsletter weiterhin erhalten"
         expect(newsletter_checkbox).not_to be_checked
         expect(data_retention_checkbox).to be_checked
       end
 
       it "checks data_retention_consent when sac spenden is checked" do
-        check "über Spendenaktionen vom SAC informiert werden"
+        check "über Spendenaktionen vom DAV informiert werden"
         expect(data_retention_checkbox).to be_checked
-        uncheck "über Spendenaktionen vom SAC informiert werden"
+        uncheck "über Spendenaktionen vom DAV informiert werden"
         expect(fundraising_checkbox).not_to be_checked
         expect(data_retention_checkbox).to be_checked
       end
 
       it "unchecks all dependent checkboxes when unchecking master checkbox" do
-        check "SAC-Newsletter weiterhin erhalten"
-        check "über Spendenaktionen vom SAC informiert werden"
-        uncheck "Ich möchte, dass meine Daten nach meinem Austritt aus dem SAC erhalten bleiben"
+        check "DAV-Newsletter weiterhin erhalten"
+        check "über Spendenaktionen vom DAV informiert werden"
+        uncheck "Ich möchte, dass meine Daten nach meinem Austritt aus dem DAV erhalten bleiben"
         expect(data_retention_checkbox).not_to be_checked
         expect(fundraising_checkbox).not_to be_checked
         expect(data_retention_checkbox).not_to be_checked
       end
 
       it "checks all dependent checkboxes when checking master checkbox" do
-        check "Ich möchte, dass meine Daten nach meinem Austritt aus dem SAC erhalten bleiben"
+        check "Ich möchte, dass meine Daten nach meinem Austritt aus dem DAV erhalten bleiben"
         expect(data_retention_checkbox).to be_checked
         expect(fundraising_checkbox).to be_checked
         expect(data_retention_checkbox).to be_checked
@@ -124,15 +124,15 @@ describe "terminate sac membership wizard", js: true do
       within("#role_#{role.id}") do
         click_link "Austritt"
       end
-      expect(page).to have_title "SAC-Mitgliedschaft beenden"
+      expect(page).to have_title "DAV-Mitgliedschaft beenden"
       select termination_reason.text
-      check "SAC-Newsletter weiterhin erhalten"
-      check "Ich möchte, dass meine Daten nach meinem Austritt aus dem SAC erhalten bleiben"
-      check "über Spendenaktionen vom SAC informiert werden"
+      check "DAV-Newsletter weiterhin erhalten"
+      check "Ich möchte, dass meine Daten nach meinem Austritt aus dem DAV erhalten bleiben"
+      check "über Spendenaktionen vom DAV informiert werden"
       check "Wiedereintritt die Eintrittsgebühr"
       expect do
         click_button "Austritt beantragen"
-        expect(page).to have_content "Deine SAC-Mitgliedschaft wurde gekündet."
+        expect(page).to have_content "Deine DAV-Mitgliedschaft wurde gekündet."
         role.reload
       end
         .to not_change { person.roles.count }
@@ -146,7 +146,7 @@ describe "terminate sac membership wizard", js: true do
       within("#role_#{role.id}") do
         click_link "Austritt"
       end
-      expect(page).to have_title "SAC-Mitgliedschaft beenden"
+      expect(page).to have_title "DAV-Mitgliedschaft beenden"
       select termination_reason.text
       expect do
         click_button "Austritt beantragen"
@@ -204,13 +204,13 @@ describe "terminate sac membership wizard", js: true do
       within("#role_#{role.id}") do
         click_link "Austritt"
       end
-      expect(page).to have_title "SAC-Mitgliedschaft beenden"
+      expect(page).to have_title "DAV-Mitgliedschaft beenden"
       select termination_reason.text
       expect do
         expect(page).to have_content "Achtung: der Austritt wird für die gesamte Familienmitgliedschaft beantragt"
         check "Wiedereintritt die Eintrittsgebühr"
         click_button "Austritt beantragen"
-        expect(page).to have_content "Eure 3 SAC-Mitgliedschaften wurden gekündet."
+        expect(page).to have_content "Eure 3 DAV-Mitgliedschaften wurden gekündet."
         role.reload
       end
         .to not_change { person.roles.count }
@@ -239,7 +239,7 @@ describe "terminate sac membership wizard", js: true do
       within("#role_#{role.id}") do
         click_link "Austritt"
       end
-      expect(page).to have_title "SAC-Mitgliedschaft beenden"
+      expect(page).to have_title "DAV-Mitgliedschaft beenden"
       expect(page).to have_content("Bitte wende dich an #{people(:familienmitglied)}")
     end
   end

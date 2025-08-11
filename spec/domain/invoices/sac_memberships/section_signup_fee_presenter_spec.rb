@@ -40,7 +40,7 @@ describe Invoices::SacMemberships::SectionSignupFeePresenter do
 
     def format_number(number) = format("%.2f", number)
 
-    def formatted_amount(number) = format("CHF %.2f", number)
+    def formatted_amount(number) = format("EUR %.2f", number)
 
     describe "summary" do
       it "label label #{expected_labels[beitragskategorie]}" do
@@ -52,7 +52,7 @@ describe Invoices::SacMemberships::SectionSignupFeePresenter do
 
         it "includes annual_fee and entry fee without any discount" do
           expect(parts).to have(2).items
-          expect(parts.first).to eq "CHF #{format_number(annual_fee)}"
+          expect(parts.first).to eq "EUR #{format_number(annual_fee)}"
           expect(parts.second).to eq "einmalige Eintrittsgebühr #{formatted_amount(entry_fee)}"
         end
 

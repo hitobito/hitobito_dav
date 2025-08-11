@@ -23,7 +23,7 @@ module Export::Pdf::Participations
     def invoice
       @invoice ||= Invoice.new(
         iban: iban,
-        currency: "CHF",
+        currency: "EUR",
         payment_purpose: "Kurs #{event.number}",
         payment_slip: "qr",
         title: title,

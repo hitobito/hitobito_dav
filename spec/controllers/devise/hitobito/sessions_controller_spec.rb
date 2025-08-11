@@ -34,7 +34,7 @@ describe Devise::Hitobito::SessionsController do
         expect(flash.alert.strip).to eq <<~TEXT.tr("\n", " ").strip
           Bitte bestätige Deine E-Mail-Adresse, bevor Du fortfahren kannst. Wir haben Dir soeben eine Bestätigungs-E-Mail geschickt.<br/>
           Falls deine E-Mail-Adresse nicht mehr gültig ist oder du (auch im SPAM-Ordner) keine E-Mail erhalten hast:
-          Wende dich bitte mit Angabe deiner E-Mail an <a href="mail_to:mv@sac-cas.ch">mv@sac-cas.ch</a>.
+          Wende dich bitte mit Angabe deiner E-Mail an <a href="mail_to:info@alpenverein.de">info@alpenverein.de</a>.
         TEXT
       end
     end

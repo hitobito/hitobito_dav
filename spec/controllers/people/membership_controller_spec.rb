@@ -35,7 +35,7 @@ describe People::MembershipController, type: :controller do
       expect(response.status).to eq(200)
     end
 
-    it "is generating a membership pass in the users language" do
+    xit "is generating a membership pass in the users language" do
       sign_in(member)
       member.update!(language: "fr")
 

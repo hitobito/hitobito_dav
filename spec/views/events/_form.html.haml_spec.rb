@@ -24,7 +24,7 @@ describe "events/_form.html.haml" do
     let(:event) { Fabricate.build(:event) }
 
     it "hides additional fields" do
-      expect(dom).not_to have_field "Unterkunft reservieren durch SAC"
+      expect(dom).not_to have_field "Unterkunft reservieren durch DAV"
       expect(dom).not_to have_select "Unterkunft"
       expect(dom).not_to have_select "Sprache"
       expect(dom).not_to have_select "Kostenstelle"
@@ -43,7 +43,7 @@ describe "events/_form.html.haml" do
     let(:event) { Fabricate.build(:course) }
 
     it "renders additional fields" do
-      expect(dom).to have_field "Unterkunft reservieren durch SAC"
+      expect(dom).to have_field "Unterkunft reservieren durch DAV"
       expect(dom).to have_select "Unterkunft"
       expect(dom).to have_select "Sprache"
       expect(dom).to have_select "Kostenstelle"

@@ -33,20 +33,20 @@ describe "wizards/signup/_section_fee_summary.html.haml" do
   it "renders label and amount" do
     render locals: {adult:, family:, youth:, active: true}
     expect(dom).to have_css "tr:nth-of-type(1) td:nth-of-type(1)", text: "Einzelmitgliedschaft"
-    expect(dom).to have_css "tr:nth-of-type(1) td:nth-of-type(2)", text: "CHF 127.00 + einmalige Eintrittsgebühr CHF 20.00"
+    expect(dom).to have_css "tr:nth-of-type(1) td:nth-of-type(2)", text: "EUR 127.00 + einmalige Eintrittsgebühr EUR 20.00"
     expect(dom).to have_css "tr:nth-of-type(2) td:nth-of-type(1)", text: "Familienmitgliedschaft"
-    expect(dom).to have_css "tr:nth-of-type(2) td:nth-of-type(2)", text: "CHF 179.00 + einmalige Eintrittsgebühr CHF 35.00"
+    expect(dom).to have_css "tr:nth-of-type(2) td:nth-of-type(2)", text: "EUR 179.00 + einmalige Eintrittsgebühr EUR 35.00"
     expect(dom).to have_css "tr:nth-of-type(3) td:nth-of-type(1)", text: "Jugendmitgliedschaft"
-    expect(dom).to have_css "tr:nth-of-type(3) td:nth-of-type(2)", text: "CHF 76.00 + einmalige Eintrittsgebühr CHF 15.00"
+    expect(dom).to have_css "tr:nth-of-type(3) td:nth-of-type(2)", text: "EUR 76.00 + einmalige Eintrittsgebühr EUR 15.00"
   end
 
   it "renders label and amount without entry fee" do
     render locals: {adult:, family:, youth:, active: true, skip_entry_fee: true}
     expect(dom).to have_css "tr:nth-of-type(1) td:nth-of-type(1)", text: "Einzelmitgliedschaft"
-    expect(dom).to have_css "tr:nth-of-type(1) td:nth-of-type(2)", text: "CHF 127.00"
+    expect(dom).to have_css "tr:nth-of-type(1) td:nth-of-type(2)", text: "EUR 127.00"
     expect(dom).to have_css "tr:nth-of-type(2) td:nth-of-type(1)", text: "Familienmitgliedschaft"
-    expect(dom).to have_css "tr:nth-of-type(2) td:nth-of-type(2)", text: "CHF 179.00"
+    expect(dom).to have_css "tr:nth-of-type(2) td:nth-of-type(2)", text: "EUR 179.00"
     expect(dom).to have_css "tr:nth-of-type(3) td:nth-of-type(1)", text: "Jugendmitgliedschaft"
-    expect(dom).to have_css "tr:nth-of-type(3) td:nth-of-type(2)", text: "CHF 76.00"
+    expect(dom).to have_css "tr:nth-of-type(3) td:nth-of-type(2)", text: "EUR 76.00"
   end
 end

@@ -40,16 +40,16 @@ describe SelfRegistration::InfosComponent, type: :component do
 
     it "renders address" do
       expect(body).to have_content <<~TEXT
-        Schweizer Alpen-Club SAC
-        Monbijoustrasse 61
-        3000 Bern 14
-        Tel: +41 31 370 18 18
+        Deutscher Alpenverein
+        Anni-Albers-Straße 7
+        80807 München
+        Tel: +49 89 140030
         #{SacCas::MV_EMAIL}
       TEXT
     end
 
     it "renders phone number as link" do
-      expect(body).to have_link("+41 31 370 18 18", href: "tel:+41313701818")
+      expect(body).to have_link("+49 89 140030", href: "tel:+4989140030")
     end
 
     it "does render email as link" do
@@ -61,12 +61,12 @@ describe SelfRegistration::InfosComponent, type: :component do
     subject(:body) { parts[2] }
 
     it "renders title" do
-      expect(body).to have_css("h2.card-title", text: "Möchtest du SAC-Mitglied werden?")
+      expect(body).to have_css("h2.card-title", text: "Möchtest du DAV-Mitglied werden?")
     end
 
     it "renders link to membership signup" do
       expect(body).to have_link "Jetzt Mitgliedschaft beantragen",
-        href: "https://www.sac-cas.ch/de/mitgliedschaft/mitglied-werden/"
+        href: "https://www.alpenverein.de/verband/dav-mitglied-werden"
     end
   end
 
@@ -78,11 +78,11 @@ describe SelfRegistration::InfosComponent, type: :component do
     end
 
     it "renders link to statutes" do
-      expect(body).to have_link "Statuten", href: "https://www.sac-cas.ch/fileadmin/Spezial/SAC-Mitgliedschaft/DE/SAC_Statuten_A5_DE.pdf"
+      expect(body).to have_link "Statuten", href: "https://www.sac-cas.ch/fileadmin/Spezial/DAV-Mitgliedschaft/DE/SAC_Statuten_A5_DE.pdf"
     end
 
     it "renders link to contributation regulations" do
-      expect(body).to have_link "Beitragsreglement", href: "https://www.sac-cas.ch/fileadmin/Spezial/SAC-Mitgliedschaft/DE/Beitragsreglement.pdf"
+      expect(body).to have_link "Beitragsreglement", href: "https://www.sac-cas.ch/fileadmin/Spezial/DAV-Mitgliedschaft/DE/Beitragsreglement.pdf"
     end
 
     it "renders link to data protection" do

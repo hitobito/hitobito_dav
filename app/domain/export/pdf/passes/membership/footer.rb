@@ -112,7 +112,7 @@ class Export::Pdf::Passes::Membership
     end
 
     def build_multilanguage_string(key)
-      [:de, :fr, :it].map do |lang|
+      Settings.application.languages.map do |lang, _|
         I18n.with_locale(lang) do
           t(key)
         end

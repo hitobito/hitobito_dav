@@ -20,7 +20,7 @@ describe "groups/_actions_show_sac_cas.html.haml" do
   end
 
   it "renders export link" do
-    expect(dom).to have_link "CSV Mitglieder", href: "/de/groups/578575972/mitglieder_exports"
+    expect(dom).to have_link "CSV Mitglieder", href: "/groups/578575972/mitglieder_exports"
   end
 
   it "renders statistics download button" do

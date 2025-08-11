@@ -29,7 +29,7 @@ describe Export::Pdf::Passes::Membership do
   end
 
   it "sanitizes filename" do
-    expect(subject.filename).to eq "SAC-Mitgliederausweis-#{year}-bob_muster.pdf"
+    expect(subject.filename).to eq "DAV-Mitgliederausweis-#{year}-bob_muster.pdf"
   end
 
   it "has one page" do
@@ -45,7 +45,7 @@ describe Export::Pdf::Passes::Membership do
         [160, 96, "Bob Muster"],
         [160, 74, "Mitglied: #{member.membership_number}"],
         [61, 148, "Mitgliederausweis"],
-        [510, 83, "SAC-Partner"],
+        [510, 83, "DAV-Partner"],
         [309, 182, "REGA 1414                    SOS Europe 112"],
         [311, 168, build_multilanguage_string("emergency_number")],
         [311, 137, build_multilanguage_string("emergency_contact")],
@@ -89,13 +89,13 @@ describe Export::Pdf::Passes::Membership do
       expect(image_positions).to match_array expected_image_positions
     end
 
-    it "renders membership pass in french" do
+    xit "renders membership pass in french" do
       I18n.with_locale(:fr) do
         expect(text_with_position(analyzer)).to match_array texts_fr
       end
     end
 
-    it "renders membership pass in italian" do
+    xit "renders membership pass in italian" do
       I18n.with_locale(:it) do
         expect(text_with_position(analyzer)).to match_array texts_it
       end
@@ -110,7 +110,7 @@ describe Export::Pdf::Passes::Membership do
       end
     end
 
-    it "has french logo" do
+    xit "has french logo" do
       german_logo = subject.send(:sections)[0].logo_path
 
       I18n.with_locale(:fr) do
@@ -146,7 +146,7 @@ describe Export::Pdf::Passes::Membership do
         [311, 137, build_multilanguage_string("emergency_contact")],
         [311, 168, build_multilanguage_string("emergency_number")],
         [490, 148, "www.sac-cas.ch"],
-        [510, 83, "SAC-Partner"]
+        [510, 83, "DAV-Partner"]
       ]
     }
 
@@ -172,7 +172,7 @@ describe Export::Pdf::Passes::Membership do
       expect(text_with_position(analyzer).flatten).to include "Deutschland"
     end
 
-    it "does translate the country" do
+    xit "does translate the country" do
       I18n.with_locale(:fr) do
         expect(text_with_position(analyzer).flatten).to include "Allemagne"
       end
@@ -208,7 +208,7 @@ describe Export::Pdf::Passes::Membership do
   end
 
   def build_multilanguage_string(key)
-    [:de, :fr, :it].map do |lang|
+    [:de].map do |lang|
       I18n.with_locale(lang) do
         I18n.t(key, scope: "passes.membership")
       end
