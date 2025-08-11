@@ -19,11 +19,7 @@ puzzlers = [
 ]
 
 devs = {
-  "Stefan Sykes" => "stefan.sykes@sac-cas.ch",
-  "Nathalie König" => "nathalie.koenig@sac-cas.ch",
-  "Reto Giger" => "reto.giger@sac-cas.ch",
-  "Pascal Werndli" => "pascal.werndli@sac-cas.ch",
-  "Marek Polacek" => "marek.polacek@sac-cas.ch"
+  "Andreas Rava" => "andreas.rava@example.com"
 }
 puzzlers.each do |puz|
   devs[puz] = "#{puz.split.last.downcase}@puzzle.ch"
