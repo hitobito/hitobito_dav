@@ -8,7 +8,7 @@
 root = Group.root
 
 magazine_list = MailingList.seed(:name, :group_id, {
-  name: "Die Alpen (physisch)",
+  name: "Panorama Magazin (physisch)",
   group_id: root.id
 }).first
 

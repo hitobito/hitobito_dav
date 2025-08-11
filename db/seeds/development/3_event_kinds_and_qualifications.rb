@@ -13,14 +13,14 @@ class EventsQualifactionsSeeder
   TOURENCHEF_EDITABLE = {tourenchef_may_edit: true}
 
   QUALIFICATIONS = {
-    "SAC Tourenleiter/in 1 Winter": REACTIVATABLE,
-    "SAC Tourenleiter/in 2 Winter": REACTIVATABLE,
-    "SAC Tourenleiter/in 1 Sommer": REACTIVATABLE,
-    "SAC Tourenleiter/in 2 Sommer": REACTIVATABLE,
-    "SAC Tourenleiter/in Sportklettern": REACTIVATABLE,
-    "SAC Tourenleiter/in Alpinwandern": REACTIVATABLE,
-    "SAC Tourenleiter/in Mountainbike": REACTIVATABLE,
-    "SAC Tourenleiter/in Bergwandern": REACTIVATABLE,
+    "DAV Tourenleiter/in 1 Winter": REACTIVATABLE,
+    "DAV Tourenleiter/in 2 Winter": REACTIVATABLE,
+    "DAV Tourenleiter/in 1 Sommer": REACTIVATABLE,
+    "DAV Tourenleiter/in 2 Sommer": REACTIVATABLE,
+    "DAV Tourenleiter/in Sportklettern": REACTIVATABLE,
+    "DAV Tourenleiter/in Alpinwandern": REACTIVATABLE,
+    "DAV Tourenleiter/in Mountainbike": REACTIVATABLE,
+    "DAV Tourenleiter/in Bergwandern": REACTIVATABLE,
     "Leiter/in Familienbergsteigen": REACTIVATABLE,
     "Bergführer/in SBV": TOURENCHEF_EDITABLE,
     "Kletterlehrer/in SBV": TOURENCHEF_EDITABLE,
@@ -31,23 +31,23 @@ class EventsQualifactionsSeeder
   }
 
   EVENT_CATEGORIES_AND_KINDS = {
-    "SAC - Leiterausbildung Winter": [
+    "DAV - Leiterausbildung Winter": [
       "Tourenleiter/in 1 Winter",
       "Tourenleiter/in 2 Winter"
     ],
-    "SAC - Leiterausbildung Sommer": [
+    "DAV - Leiterausbildung Sommer": [
       "Tourenleiter/in 1 Sommer",
       "Tourenleiter/in 2 Sommer",
       "Tourenleiter/in Bergwandern",
       "Tourenleiter/in Mountainbike"
     ],
-    "SAC - Leiterfortbildung Winter": [
+    "DAV - Leiterfortbildung Winter": [
       "Skitouren Freeride",
       "Skitourenleiter/in Winter - Refresher",
       "Rettung - Erste Hilfe",
       {training_days: 2}
     ],
-    "SAC - Leiterfortbildung Sommer": [
+    "DAV - Leiterfortbildung Sommer": [
       "Bergsteigen Sommer",
       "Entscheidungsfindung",
       "Rettung - Erste Hilfe",
@@ -75,12 +75,12 @@ class EventsQualifactionsSeeder
 
   PARTICIPANT_QUALIFYING = {category: :qualification, role: :participant}
   PARTICIPANT_QUALIFYING_EVENT_KINDS = {
-    "Tourenleiter/in 1 Winter": [["SAC Tourenleiter/in 1 Winter"], PARTICIPANT_QUALIFYING],
-    "Tourenleiter/in 2 Winter": [["SAC Tourenleiter/in 2 Winter"], PARTICIPANT_QUALIFYING],
-    "Tourenleiter/in 1 Sommer": [["SAC Tourenleiter/in 1 Sommer"], PARTICIPANT_QUALIFYING],
-    "Tourenleiter/in 2 Sommer": [["SAC Tourenleiter/in 2 Sommer"], PARTICIPANT_QUALIFYING],
-    "Tourenleiter/in Bergwandern": [["SAC Tourenleiter/in Bergwandern"], PARTICIPANT_QUALIFYING],
-    "Tourenleiter/in Mountainbike": [["SAC Tourenleiter/in Mountainbike"], PARTICIPANT_QUALIFYING]
+    "Tourenleiter/in 1 Winter": [["DAV Tourenleiter/in 1 Winter"], PARTICIPANT_QUALIFYING],
+    "Tourenleiter/in 2 Winter": [["DAV Tourenleiter/in 2 Winter"], PARTICIPANT_QUALIFYING],
+    "Tourenleiter/in 1 Sommer": [["DAV Tourenleiter/in 1 Sommer"], PARTICIPANT_QUALIFYING],
+    "Tourenleiter/in 2 Sommer": [["DAV Tourenleiter/in 2 Sommer"], PARTICIPANT_QUALIFYING],
+    "Tourenleiter/in Bergwandern": [["DAV Tourenleiter/in Bergwandern"], PARTICIPANT_QUALIFYING],
+    "Tourenleiter/in Mountainbike": [["DAV Tourenleiter/in Mountainbike"], PARTICIPANT_QUALIFYING]
   }
 
   LEADER_PROLONGING = [QUALIFICATIONS.keys, {category: :prolongation, role: :leader}]

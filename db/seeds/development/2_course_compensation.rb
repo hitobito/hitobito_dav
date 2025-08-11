@@ -15,9 +15,9 @@ CourseCompensationCategory.seed_once(
   {id: 3,
    short_name: "UB-HUETTE",
    kind: :budget,
-   description: "Budgetvorgabe für SAC Hütte",
-   name_leader: "SAC Hütte",
-   name_assistant_leader: "SAC Hütte"}
+   description: "Budgetvorgabe für DAV Hütte",
+   name_leader: "DAV Hütte",
+   name_assistant_leader: "DAV Hütte"}
 )
 
 CourseCompensationRate.seed_once(:course_compensation_category_id,
