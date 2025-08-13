@@ -114,14 +114,14 @@ class EventsQualifactionsSeeder
 
   def seed_qualifications
     attrs = QUALIFICATIONS.map { |label, options| options.merge(id: identify(label)) }
-    QualificationKind.seed(:id, attrs)
+    QualificationKind.seed_once(:id, attrs)
   end
 
   def seed_qualification_translations
     attrs = QUALIFICATIONS.keys.map do |label|
       {locale: "de", label: label, qualification_kind_id: identify(label)}
     end
-    QualificationKind::Translation.seed(:qualification_kind_id, :locale, attrs)
+    QualificationKind::Translation.seed_once(:qualification_kind_id, :locale, attrs)
   end
 
   def seed_event_kinds
@@ -132,7 +132,7 @@ class EventsQualifactionsSeeder
         .merge(cost_center_id: category.cost_center_id, cost_unit_id: category.cost_unit_id, level_id: level.id)
       kinds.map { |kind| options.merge(id: identify(kind), kind_category_id: category.id) }
     end
-    Event::Kind.seed(:id, rows)
+    Event::Kind.seed_once(:id, rows)
   end
 
   def seed_event_kind_translations
@@ -142,17 +142,17 @@ class EventsQualifactionsSeeder
         {locale: "de", label: kind, short_name: "S#{event_kind_id.to_s[0..3]}", event_kind_id: event_kind_id}
       end
     end
-    Event::Kind::Translation.seed(:event_kind_id, rows)
+    Event::Kind::Translation.seed_once(:event_kind_id, rows)
   end
 
   def seed_qualifying_event_kinds
     rows = build_kind_qualication_kinds(PARTICIPANT_QUALIFYING_EVENT_KINDS)
-    Event::KindQualificationKind.seed(:id, rows)
+    Event::KindQualificationKind.seed_once(:id, rows)
   end
 
   def seed_prolonging_event_kinds
     rows = build_kind_qualication_kinds(PROLONGING_EVENT_KINDS)
-    Event::KindQualificationKind.seed(:id, rows)
+    Event::KindQualificationKind.seed_once(:id, rows)
   end
 
   def build_kind_qualication_kinds(event_kind_qualifications)

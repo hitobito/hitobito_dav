@@ -5,5 +5,8 @@
 #  or later. See the COPYING file at the top-level directory or at
 #  https://github.com/hitobito/hitobito_sac_cas
 
-SectionOffering.seed_once(title: "Sektionsangebot Q1")
-SectionOffering.seed_once(title: "Eintrittsrabatt LF05")
+offerings = ["Sektionsangebot Q1", "Eintrittsrabatt LF05"].map do |title|
+  {id: ActiveRecord::FixtureSet.identify(title), title: title}
+end
+
+SectionOffering.seed_once(:id, offerings)
