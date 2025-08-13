@@ -29,13 +29,13 @@ end
 
 sac_newsletter_list = seed_list(
   SacCas::MAILING_LIST_SAC_NEWSLETTER_INTERNAL_KEY,
-  "SAC/CAS Newsletter",
+  "DAV Newsletter",
   subscribable_for: "anyone"
 )
 
 sac_inside_list = seed_list(
   SacCas::MAILING_LIST_SAC_INSIDE_INTERNAL_KEY,
-  "SAC-Inside"
+  "DAV-Inside"
 )
 seed_subscription(sac_inside_list,
   Group::Geschaeftsstelle::Mitarbeiter,
@@ -102,7 +102,7 @@ seed_subscription(tourenleiter_newsletter_list,
 
 die_alpen_paper_list = seed_list(
   SacCas::MAILING_LIST_DIE_ALPEN_PAPER_INTERNAL_KEY,
-  "Die Alpen - Zeitschrift des SAC",
+  "Panorama Magazin",
   subscribable_mode: "opt_out",
   filter_chain: {"invoice_receiver" => {"stammsektion" => "true", "group_id" => Group.root.id}}
 )
@@ -111,7 +111,7 @@ seed_subscription(die_alpen_paper_list,
 
 die_alpen_digital_list = seed_list(
   SacCas::MAILING_LIST_DIE_ALPEN_DIGITAL_INTERNAL_KEY,
-  "Die Alpen - Digital"
+  "Panorama Magazin - Digital"
 )
 seed_subscription(die_alpen_digital_list,
   Group::SektionsMitglieder::Mitglied,

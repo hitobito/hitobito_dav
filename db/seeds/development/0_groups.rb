@@ -12,8 +12,8 @@ seeder = GroupSeeder.new
 root = Group.roots.first
 srand(42)
 
-def seed_club_hut(sektion, name, navision_id)
-  sektions_funktionaere = Group::SektionsFunktionaere.find_or_create_by!(parent_id: sektion.id)
+def seed_club_hut(sektion_id, name, navision_id)
+  sektions_funktionaere = Group::SektionsFunktionaere.find_or_create_by!(parent_id: sektion_id)
   kommissionen = Group::SektionsKommissionen.find_or_create_by!(parent_id: sektions_funktionaere.id)
   Group::SektionsKommissionHuetten.find_or_create_by!(parent_id: kommissionen.id, name: "Hüttenkommission")
   clubhuetten = Group::SektionsClubhuetten.find_or_create_by!(parent_id: sektions_funktionaere.id)
@@ -66,19 +66,34 @@ Group::ExterneKontakte.seed_once(:name, :parent_id, {
   parent_id: Group::ExterneKontakte.find_by(name: "Externe Kontakte").id
 })
 
-sections_file = HitobitoDav::Wagon.root.join("db", "seeds", "development", "0_groups_sections.json")
-sections_data = JSON.load_file(sections_file).drop(1) # the first entry is for the root group
-sections_data = sections_data.take(10) if ENV["CI"]
-Group::Sektion.seed_once(:id, sections_data)
+sections_subset = DavSections.sections
+  .select { |row| row["name"] =~ /^Sektion/ }
+  .group_by { |row| row["name"][/\s(\w)/, 1] }.except(nil)
+  .sort_by { |key, _| key }
+  .take(5)
+  .map { |_, rows| rows.min_by { |row| row["id"] } }
 
-# seed_section_hut(matterhorn, "Matterhornbiwak", 99999942)
-# seed_club_hut(uto, "Domhütte", 81)
-# seed_club_hut(uto, "Spannorthütte", 255)
-# seed_club_hut(uto, "Täschhütte", 265)
-# seed_club_hut(bluemlisalp, "Blüemlisalphütte", 36)
-# seed_club_hut(bluemlisalp, "Baltschiederklause", 25)
-# seed_club_hut(bluemlisalp, "Stockhornbiwak", 258)
-# seed_section_hut(bluemlisalp, "Ski- & Ferienhaus Obergestelen", 448786)
-# seed_section_hut(bluemlisalp, "Sunnhüsi", 448785)
+Group::Sektion.seed_once(:id, sections_subset)
+
+# Sektion Aachen
+["Anton-Renk-Hütte", "Haus Rohren"].each do |hut_name|
+  seed_club_hut(1, hut_name, nil)
+end
+
+# Sektion Bad Aibling
+seed_club_hut(4, "Aiblinger Hütte", nil)
+
+# Sektion Celle
+seed_club_hut(49, "Celler Hütte Hohen Tauern", nil)
+
+# Sektion Darmstadt-Starkenburg
+["Felsberghütte", "Starkenburgerhütte", "Darmstädterhütte"].each do |hut_name|
+  seed_club_hut(53, hut_name, nil)
+end
+
+# Sektion Ebersberg-Grafing
+["Schneelahner Hütte", "Meißner Haus"].each do |hut_name|
+  seed_club_hut(64, hut_name, nil)
+end
 
 Group.rebuild!

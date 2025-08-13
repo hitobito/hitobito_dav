@@ -20,7 +20,8 @@ def seed_magazin_abo(id, name, parent, title_de:, title_fr:, title_it:, title_en
   end
 end
 
-Group::SacCas.seed_once(:id, id: 0, name: "Deutscher Alpenverein")
+require HitobitoDav::Wagon.root.join("db", "seeds", "support", "dav_sections").to_s
+Group::SacCas.seed_once(:id, DavSections.dachverband)
 
 # Set the next group ID to a value that is higher than the current maximum, but at
 # least 10,000 to avoid collisions with the IDs of the section groups that will get imported later.

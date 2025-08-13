@@ -8,8 +8,9 @@
     "zip_code": "80807",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 1,
@@ -20,8 +21,9 @@
     "zip_code": "52064",
     "town": "Aachen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 2,
@@ -32,8 +34,9 @@
     "zip_code": "80937",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 3,
@@ -44,8 +47,9 @@
     "zip_code": "83250",
     "town": "Marquartstein",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 4,
@@ -56,8 +60,9 @@
     "zip_code": "83043",
     "town": "Bad Aibling",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 5,
@@ -68,8 +73,9 @@
     "zip_code": "86551",
     "town": "Aichach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 6,
@@ -80,8 +86,9 @@
     "zip_code": "81545",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 7,
@@ -92,8 +99,9 @@
     "zip_code": "87527",
     "town": "Sonthofen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 8,
@@ -104,8 +112,9 @@
     "zip_code": "87439",
     "town": "Kempten",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 9,
@@ -116,8 +125,9 @@
     "zip_code": "85435",
     "town": "Erding",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 10,
@@ -128,8 +138,9 @@
     "zip_code": "83607",
     "town": "Holzkirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 11,
@@ -140,8 +151,9 @@
     "zip_code": "83604",
     "town": "Holzkirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 12,
@@ -152,8 +164,9 @@
     "zip_code": "66111",
     "town": "Saarbrücken",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 13,
@@ -164,8 +177,9 @@
     "zip_code": "81375",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 14,
@@ -176,8 +190,9 @@
     "zip_code": "92224",
     "town": "Amberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 15,
@@ -188,8 +203,9 @@
     "zip_code": "86911",
     "town": "Dießen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 16,
@@ -200,8 +216,9 @@
     "zip_code": "91522",
     "town": "Ansbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 17,
@@ -212,8 +229,9 @@
     "zip_code": "85276",
     "town": "Pfaffenhofen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 18,
@@ -224,8 +242,9 @@
     "zip_code": "63739",
     "town": "Aschaffenburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 19,
@@ -236,8 +255,9 @@
     "zip_code": "86152",
     "town": "Augsburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 20,
@@ -248,8 +268,9 @@
     "zip_code": "88326",
     "town": "Aulendorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 22,
@@ -260,8 +281,9 @@
     "zip_code": "78056",
     "town": "Villingen-Schwenningen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 23,
@@ -272,8 +294,9 @@
     "zip_code": "76532",
     "town": "Baden-Baden",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 24,
@@ -284,8 +307,9 @@
     "zip_code": "96047",
     "town": "Bamberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 25,
@@ -296,8 +320,9 @@
     "zip_code": "42389",
     "town": "Wuppertal",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 26,
@@ -308,8 +333,9 @@
     "zip_code": "82467",
     "town": "Garmisch Partenkirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 27,
@@ -320,8 +346,9 @@
     "zip_code": "95447",
     "town": "Bayreuth",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 28,
@@ -332,8 +359,9 @@
     "zip_code": "59269",
     "town": "Beckum",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 29,
@@ -344,8 +372,9 @@
     "zip_code": "83483",
     "town": "Bischofswiesen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 30,
@@ -356,8 +385,9 @@
     "zip_code": "81375",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 31,
@@ -368,8 +398,9 @@
     "zip_code": "83026",
     "town": "Rosenheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 32,
@@ -380,8 +411,9 @@
     "zip_code": "41199",
     "town": "Mönchengladbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 33,
@@ -392,8 +424,9 @@
     "zip_code": "66583",
     "town": "Spiesen-Elversberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 34,
@@ -404,8 +437,9 @@
     "zip_code": "82110",
     "town": "Germering",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 35,
@@ -416,8 +450,9 @@
     "zip_code": "91809",
     "town": "Wellheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 36,
@@ -428,8 +463,9 @@
     "zip_code": "81377",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 37,
@@ -440,8 +476,9 @@
     "zip_code": "10557",
     "town": "Berlin",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 38,
@@ -452,8 +489,9 @@
     "zip_code": "88400",
     "town": "Biberach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 39,
@@ -464,8 +502,9 @@
     "zip_code": "33607",
     "town": "Bielefeld",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 40,
@@ -476,8 +515,9 @@
     "zip_code": "44807",
     "town": "Bochum",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 41,
@@ -488,8 +528,9 @@
     "zip_code": "81929",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 42,
@@ -500,8 +541,9 @@
     "zip_code": "53225",
     "town": "Bonn",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 43,
@@ -512,8 +554,9 @@
     "zip_code": "38100",
     "town": "Braunschweig",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 44,
@@ -524,8 +567,9 @@
     "zip_code": "28359",
     "town": "Bremen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 45,
@@ -536,8 +580,9 @@
     "zip_code": "89518",
     "town": "Heidenheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 46,
@@ -548,8 +593,9 @@
     "zip_code": "70372",
     "town": "Stuttgart",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 47,
@@ -560,8 +606,9 @@
     "zip_code": "84489",
     "town": "Burghausen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 48,
@@ -572,8 +619,9 @@
     "zip_code": "84508",
     "town": "Burgkirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 49,
@@ -584,8 +632,9 @@
     "zip_code": "29221",
     "town": "Celle",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 50,
@@ -596,8 +645,9 @@
     "zip_code": "10585",
     "town": "Berlin",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 52,
@@ -608,8 +658,9 @@
     "zip_code": "96450",
     "town": "Coburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 53,
@@ -620,8 +671,9 @@
     "zip_code": "64287",
     "town": "Darmstadt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 54,
@@ -632,8 +684,9 @@
     "zip_code": "94469",
     "town": "Deggendorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 55,
@@ -644,8 +697,9 @@
     "zip_code": "32756",
     "town": "Detmold",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 56,
@@ -656,8 +710,9 @@
     "zip_code": "90427",
     "town": "Nürnberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 57,
@@ -668,8 +723,9 @@
     "zip_code": "89407",
     "town": "Dillingen-Donaualtheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 58,
@@ -680,8 +736,9 @@
     "zip_code": "86609",
     "town": "Donauwörth",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 59,
@@ -692,8 +749,9 @@
     "zip_code": "44141",
     "town": "Dortmund",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 60,
@@ -704,8 +762,9 @@
     "zip_code": "71032",
     "town": "Böblingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 61,
@@ -716,8 +775,9 @@
     "zip_code": "52349",
     "town": "Düren",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 62,
@@ -728,8 +788,9 @@
     "zip_code": "40217",
     "town": "Düsseldorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 63,
@@ -740,8 +801,9 @@
     "zip_code": "47137",
     "town": "Duisburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 64,
@@ -752,8 +814,9 @@
     "zip_code": "85567",
     "town": "Grafing",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 65,
@@ -764,8 +827,9 @@
     "zip_code": "72458",
     "town": "Albstadt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 66,
@@ -776,8 +840,9 @@
     "zip_code": "81241",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 67,
@@ -788,8 +853,9 @@
     "zip_code": "91088",
     "town": "Bubenreuth",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 68,
@@ -800,8 +866,9 @@
     "zip_code": "84553",
     "town": "Halsbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 69,
@@ -812,8 +879,9 @@
     "zip_code": "85072",
     "town": "Eichstätt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 71,
@@ -824,8 +892,9 @@
     "zip_code": "76275",
     "town": "Ettlingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 72,
@@ -836,8 +905,9 @@
     "zip_code": "91052",
     "town": "Erlangen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 73,
@@ -848,8 +918,9 @@
     "zip_code": "45326",
     "town": "Essen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 74,
@@ -860,8 +931,9 @@
     "zip_code": "82008",
     "town": "Unterhaching",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 75,
@@ -872,8 +944,9 @@
     "zip_code": "24904",
     "town": "Flensburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 76,
@@ -884,8 +957,9 @@
     "zip_code": "91301",
     "town": "Forchheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 77,
@@ -896,8 +970,9 @@
     "zip_code": "90768",
     "town": "Fürth",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 78,
@@ -908,8 +983,9 @@
     "zip_code": "67227",
     "town": "Frankenthal",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 79,
@@ -920,8 +996,9 @@
     "zip_code": "60433",
     "town": "Frankfurt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 80,
@@ -932,8 +1009,9 @@
     "zip_code": "79115",
     "town": "Freiburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 81,
@@ -944,8 +1022,9 @@
     "zip_code": "83395",
     "town": "Freilassing",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 82,
@@ -956,8 +1035,9 @@
     "zip_code": "85354",
     "town": "Freising",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 83,
@@ -968,8 +1048,9 @@
     "zip_code": "72250",
     "town": "Freudenstadt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 84,
@@ -980,8 +1061,9 @@
     "zip_code": "88046",
     "town": "Friedrichshafen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 85,
@@ -992,8 +1074,9 @@
     "zip_code": "90762",
     "town": "Fürth",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 86,
@@ -1004,8 +1087,9 @@
     "zip_code": "87669",
     "town": "Rieden",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 87,
@@ -1016,8 +1100,9 @@
     "zip_code": "36100",
     "town": "Petersberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 89,
@@ -1028,8 +1113,9 @@
     "zip_code": "84140",
     "town": "Gangkofen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 90,
@@ -1040,8 +1126,9 @@
     "zip_code": "82467",
     "town": "Garmisch Partenkirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 91,
@@ -1052,8 +1139,9 @@
     "zip_code": "73312",
     "town": "Geislingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 92,
@@ -1064,8 +1152,9 @@
     "zip_code": "45886",
     "town": "Gelsenkirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 93,
@@ -1076,8 +1165,9 @@
     "zip_code": "82269",
     "town": "Geltendorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 94,
@@ -1088,8 +1178,9 @@
     "zip_code": "86368",
     "town": "Gersthofen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 95,
@@ -1100,8 +1191,9 @@
     "zip_code": "35394",
     "town": "Gießen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 96,
@@ -1112,8 +1204,9 @@
     "zip_code": "90455",
     "town": "Nürnberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 97,
@@ -1124,8 +1217,9 @@
     "zip_code": "82041",
     "town": "Oberhaching",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 99,
@@ -1136,8 +1230,9 @@
     "zip_code": "37073",
     "town": "Göttingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 100,
@@ -1148,8 +1243,9 @@
     "zip_code": "38640",
     "town": "Goslar",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 101,
@@ -1160,8 +1256,9 @@
     "zip_code": "82541",
     "town": "Münsing, Starnberger See",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 102,
@@ -1172,8 +1269,9 @@
     "zip_code": "94086",
     "town": "Bad Griesbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 103,
@@ -1184,8 +1282,9 @@
     "zip_code": "03172",
     "town": "Guben",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 104,
@@ -1196,8 +1295,9 @@
     "zip_code": "89312",
     "town": "Günzburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 105,
@@ -1208,8 +1308,9 @@
     "zip_code": "51645",
     "town": "Gummersbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 106,
@@ -1220,8 +1321,9 @@
     "zip_code": "91710",
     "town": "Gunzenhausen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 107,
@@ -1232,8 +1334,9 @@
     "zip_code": "83527",
     "town": "Haag, Oberbay",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 108,
@@ -1244,8 +1347,9 @@
     "zip_code": "58095",
     "town": "Hagen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 109,
@@ -1256,8 +1360,9 @@
     "zip_code": "61276",
     "town": "Weilrod",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 110,
@@ -1268,8 +1373,9 @@
     "zip_code": "22529",
     "town": "Hamburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 111,
@@ -1280,8 +1386,9 @@
     "zip_code": "31789",
     "town": "Hameln",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 112,
@@ -1292,8 +1399,9 @@
     "zip_code": "63450",
     "town": "Hanau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 113,
@@ -1304,8 +1412,9 @@
     "zip_code": "30519",
     "town": "Hannover",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 114,
@@ -1316,8 +1425,9 @@
     "zip_code": "69124",
     "town": "Heidelberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 115,
@@ -1328,8 +1438,9 @@
     "zip_code": "74076",
     "town": "Heilbronn",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 116,
@@ -1340,8 +1451,9 @@
     "zip_code": "91217",
     "town": "Hersbruck",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 117,
@@ -1352,8 +1464,9 @@
     "zip_code": "36251",
     "town": "Bad Hersfeld",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 118,
@@ -1364,8 +1477,9 @@
     "zip_code": "91572",
     "town": "Bechhofen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 119,
@@ -1376,8 +1490,9 @@
     "zip_code": "31137",
     "town": "Hildesheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 120,
@@ -1388,8 +1503,9 @@
     "zip_code": "81739",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 121,
@@ -1400,8 +1516,9 @@
     "zip_code": "79713",
     "town": "Bad Säckingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 122,
@@ -1412,8 +1529,9 @@
     "zip_code": "95032",
     "town": "Hof",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 123,
@@ -1424,8 +1542,9 @@
     "zip_code": "73037",
     "town": "Göppingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 124,
@@ -1436,8 +1555,9 @@
     "zip_code": "89257",
     "town": "Illertissen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 125,
@@ -1448,8 +1568,9 @@
     "zip_code": "85051",
     "town": "Ingolstadt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 126,
@@ -1460,8 +1581,9 @@
     "zip_code": "81825",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 127,
@@ -1472,8 +1594,9 @@
     "zip_code": "88316",
     "town": "Isny",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 128,
@@ -1484,8 +1607,9 @@
     "zip_code": "67663",
     "town": "Kaiserslautern",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 129,
@@ -1496,8 +1620,9 @@
     "zip_code": "85221",
     "town": "Dachau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 130,
@@ -1508,8 +1633,9 @@
     "zip_code": "95643",
     "town": "Tirschenreuth",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 131,
@@ -1520,8 +1646,9 @@
     "zip_code": "76131",
     "town": "Karlsruhe",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 132,
@@ -1532,8 +1659,9 @@
     "zip_code": "34131",
     "town": "Kassel",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 133,
@@ -1544,8 +1672,9 @@
     "zip_code": "38259",
     "town": "Salzgitter",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 134,
@@ -1556,8 +1685,9 @@
     "zip_code": "87600",
     "town": "Kaufbeuren",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 135,
@@ -1568,8 +1698,9 @@
     "zip_code": "93342",
     "town": "Saal a. d. Donau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 136,
@@ -1580,8 +1711,9 @@
     "zip_code": "24149",
     "town": "Kiel",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 137,
@@ -1592,8 +1724,9 @@
     "zip_code": "97688",
     "town": "Bad Kissingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 138,
@@ -1604,8 +1737,9 @@
     "zip_code": "56077",
     "town": "Koblenz",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 139,
@@ -1616,8 +1750,9 @@
     "zip_code": "82057",
     "town": "Icking",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 140,
@@ -1628,8 +1763,9 @@
     "zip_code": "78467",
     "town": "Konstanz",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 141,
@@ -1640,8 +1776,9 @@
     "zip_code": "47804",
     "town": "Krefeld",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 142,
@@ -1652,8 +1789,9 @@
     "zip_code": "86381",
     "town": "Krumbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 143,
@@ -1664,8 +1802,9 @@
     "zip_code": "95301",
     "town": "Kulmbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 144,
@@ -1676,8 +1815,9 @@
     "zip_code": "77955",
     "town": "Ettenheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 145,
@@ -1688,8 +1828,9 @@
     "zip_code": "76829",
     "town": "Landau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 146,
@@ -1700,8 +1841,9 @@
     "zip_code": "86899",
     "town": "Landsberg am Lech",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 147,
@@ -1712,8 +1854,9 @@
     "zip_code": "84036",
     "town": "Landshut",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 148,
@@ -1724,8 +1867,9 @@
     "zip_code": "91207",
     "town": "Lauf  a. d.  Pegnitz",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 149,
@@ -1736,8 +1880,9 @@
     "zip_code": "83410",
     "town": "Laufen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 150,
@@ -1748,8 +1893,9 @@
     "zip_code": "86956",
     "town": "Schongau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 152,
@@ -1760,8 +1906,9 @@
     "zip_code": "83730",
     "town": "Fischbachau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 153,
@@ -1772,8 +1919,9 @@
     "zip_code": "83674",
     "town": "Gaißach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 154,
@@ -1784,8 +1932,9 @@
     "zip_code": "88299",
     "town": "Leutkirch",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 155,
@@ -1796,8 +1945,9 @@
     "zip_code": "96215",
     "town": "Lichtenfels",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 156,
@@ -1808,8 +1958,9 @@
     "zip_code": "88131",
     "town": "Lindau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 157,
@@ -1820,8 +1971,9 @@
     "zip_code": "79540",
     "town": "Lörrach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 158,
@@ -1832,8 +1984,9 @@
     "zip_code": "71638",
     "town": "Ludwigsburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 159,
@@ -1844,8 +1997,9 @@
     "zip_code": "67061",
     "town": "Ludwigshafen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 160,
@@ -1856,8 +2010,9 @@
     "zip_code": "23560",
     "town": "Lübeck",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 161,
@@ -1868,8 +2023,9 @@
     "zip_code": "58553",
     "town": "Halver",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 163,
@@ -1880,8 +2036,9 @@
     "zip_code": "81377",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 164,
@@ -1892,8 +2049,9 @@
     "zip_code": "84048",
     "town": "Mainburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 165,
@@ -1904,8 +2062,9 @@
     "zip_code": "55120",
     "town": "Mainz",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 166,
@@ -1916,8 +2075,9 @@
     "zip_code": "68309",
     "town": "Mannheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 167,
@@ -1928,8 +2088,9 @@
     "zip_code": "35039",
     "town": "Marburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 170,
@@ -1940,8 +2101,9 @@
     "zip_code": "87700",
     "town": "Memmingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 171,
@@ -1952,8 +2114,9 @@
     "zip_code": "86438",
     "town": "Kissing",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 172,
@@ -1964,8 +2127,9 @@
     "zip_code": "83734",
     "town": "Hausham",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 173,
@@ -1976,8 +2140,9 @@
     "zip_code": "87719",
     "town": "Mindelheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 174,
@@ -1988,8 +2153,9 @@
     "zip_code": "32427",
     "town": "Minden",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 175,
@@ -2000,8 +2166,9 @@
     "zip_code": "91094",
     "town": "Bräuningshof",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 176,
@@ -2012,8 +2179,9 @@
     "zip_code": "82481",
     "town": "Mittenwald",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 177,
@@ -2024,8 +2192,9 @@
     "zip_code": "41179",
     "town": "Mönchengladbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 178,
@@ -2036,8 +2205,9 @@
     "zip_code": "85368",
     "town": "Moosburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 179,
@@ -2048,8 +2218,9 @@
     "zip_code": "84478",
     "town": "Waldkraiburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 180,
@@ -2060,8 +2231,9 @@
     "zip_code": "45468",
     "town": "Mülheim an der Ruhr",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 181,
@@ -2072,8 +2244,9 @@
     "zip_code": "80331",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 182,
@@ -2084,8 +2257,9 @@
     "zip_code": "48159",
     "town": "Münster",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 183,
@@ -2096,8 +2270,9 @@
     "zip_code": "82418",
     "town": "Murnau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 184,
@@ -2108,8 +2283,9 @@
     "zip_code": "55501",
     "town": "Bad Kreuznach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 185,
@@ -2120,8 +2296,9 @@
     "zip_code": "86697",
     "town": "Oberhausen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 186,
@@ -2132,8 +2309,9 @@
     "zip_code": "82377",
     "town": "Penzberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 187,
@@ -2144,8 +2322,9 @@
     "zip_code": "92318",
     "town": "Neumarkt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 188,
@@ -2156,8 +2335,9 @@
     "zip_code": "84503",
     "town": "Altötting",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 189,
@@ -2168,8 +2348,9 @@
     "zip_code": "96465",
     "town": "Neustadt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 190,
@@ -2180,8 +2361,9 @@
     "zip_code": "67433",
     "town": "Neustadt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 191,
@@ -2192,8 +2374,9 @@
     "zip_code": "89231",
     "town": "Neu Ulm",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 193,
@@ -2204,8 +2387,9 @@
     "zip_code": "86753",
     "town": "Nördlingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 194,
@@ -2216,8 +2400,9 @@
     "zip_code": "90403",
     "town": "Nürnberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 195,
@@ -2228,8 +2413,9 @@
     "zip_code": "90402",
     "town": "Nürnberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 196,
@@ -2240,8 +2426,9 @@
     "zip_code": "78628",
     "town": "Rottweil",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 197,
@@ -2252,8 +2439,9 @@
     "zip_code": "73447",
     "town": "Oberkochen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 198,
@@ -2264,8 +2452,9 @@
     "zip_code": "80331",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 199,
@@ -2276,8 +2465,9 @@
     "zip_code": "87534",
     "town": "Oberstaufen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 200,
@@ -2288,8 +2478,9 @@
     "zip_code": "87561",
     "town": "Oberstdorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 201,
@@ -2300,8 +2491,9 @@
     "zip_code": "63071",
     "town": "Offenbach am Main",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 202,
@@ -2312,8 +2504,9 @@
     "zip_code": "77654",
     "town": "Offenburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 203,
@@ -2324,8 +2517,9 @@
     "zip_code": "26127",
     "town": "Oldenburg, Oldb",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 204,
@@ -2336,8 +2530,9 @@
     "zip_code": "49074",
     "town": "Osnabrück",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 205,
@@ -2348,8 +2543,9 @@
     "zip_code": "33100",
     "town": "Paderborn",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 206,
@@ -2360,8 +2556,9 @@
     "zip_code": "94036",
     "town": "Passau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 207,
@@ -2372,8 +2569,9 @@
     "zip_code": "82380",
     "town": "Peißenberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 208,
@@ -2384,8 +2582,9 @@
     "zip_code": "86971",
     "town": "Peiting",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 209,
@@ -2396,8 +2595,9 @@
     "zip_code": "84347",
     "town": "Pfarrkirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 210,
@@ -2408,8 +2608,9 @@
     "zip_code": "75179",
     "town": "Pforzheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 211,
@@ -2420,8 +2621,9 @@
     "zip_code": "87629",
     "town": "Füssen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 212,
@@ -2432,8 +2634,9 @@
     "zip_code": "66953",
     "town": "Pirmasens",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 213,
@@ -2444,8 +2647,9 @@
     "zip_code": "08525",
     "town": "Plauen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 214,
@@ -2456,8 +2660,9 @@
     "zip_code": "91550",
     "town": "Dinkelsbühl",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 216,
@@ -2468,8 +2673,9 @@
     "zip_code": "83233",
     "town": "Bernau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 217,
@@ -2480,8 +2686,9 @@
     "zip_code": "88212",
     "town": "Ravensburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 218,
@@ -2492,8 +2699,9 @@
     "zip_code": "45721",
     "town": "Haltern am See",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 219,
@@ -2504,8 +2712,9 @@
     "zip_code": "93059",
     "town": "Regensburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 220,
@@ -2516,8 +2725,9 @@
     "zip_code": "83435",
     "town": "Bad Reichenhall",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 221,
@@ -2528,8 +2738,9 @@
     "zip_code": "72764",
     "town": "Reutlingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 222,
@@ -2540,8 +2751,9 @@
     "zip_code": "50676",
     "town": "Köln",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 223,
@@ -2552,8 +2764,9 @@
     "zip_code": "85051",
     "town": "Ingolstadt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 224,
@@ -2564,8 +2777,9 @@
     "zip_code": "90552",
     "town": "Röthenbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 225,
@@ -2576,8 +2790,9 @@
     "zip_code": "83022",
     "town": "Rosenheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 226,
@@ -2588,8 +2803,9 @@
     "zip_code": "97828",
     "town": "Marktheidenfeld",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 227,
@@ -2600,8 +2816,9 @@
     "zip_code": "91541",
     "town": "Rothenburg/Tauber",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 228,
@@ -2612,8 +2829,9 @@
     "zip_code": "84494",
     "town": "Neumarkt St. Veit",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 229,
@@ -2624,8 +2842,9 @@
     "zip_code": "65428",
     "town": "Rüsselsheim-Bauschheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 231,
@@ -2636,8 +2855,9 @@
     "zip_code": "88348",
     "town": "Bad Saulgau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 232,
@@ -2648,8 +2868,9 @@
     "zip_code": "83727",
     "town": "Schliersee",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 233,
@@ -2660,8 +2881,9 @@
     "zip_code": "73614",
     "town": "Schorndorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 234,
@@ -2672,8 +2894,9 @@
     "zip_code": "86529",
     "town": "Schrobenhausen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 235,
@@ -2684,8 +2907,9 @@
     "zip_code": "91126",
     "town": "Schwabach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 236,
@@ -2696,8 +2920,9 @@
     "zip_code": "70597",
     "town": "Stuttgart",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 237,
@@ -2708,8 +2933,9 @@
     "zip_code": "86853",
     "town": "Langerringen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 238,
@@ -2720,8 +2946,9 @@
     "zip_code": "73525",
     "town": "Schwäbisch Gmünd",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 239,
@@ -2732,8 +2959,9 @@
     "zip_code": "78050",
     "town": "Villingen-Schwenningen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 240,
@@ -2744,8 +2972,9 @@
     "zip_code": "97422",
     "town": "Schweinfurt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 241,
@@ -2756,8 +2985,9 @@
     "zip_code": "89077",
     "town": "Ulm",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 242,
@@ -2768,8 +2998,9 @@
     "zip_code": "95100",
     "town": "Selb",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 243,
@@ -2780,8 +3011,9 @@
     "zip_code": "53340",
     "town": "Meckenheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 244,
@@ -2792,8 +3024,9 @@
     "zip_code": "57072",
     "town": "Siegen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 245,
@@ -2804,8 +3037,9 @@
     "zip_code": "88637",
     "town": "Leibertingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 247,
@@ -2816,8 +3050,9 @@
     "zip_code": "84359",
     "town": "Simbach am Inn",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 248,
@@ -2828,8 +3063,9 @@
     "zip_code": "96515",
     "town": "Sonneberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 249,
@@ -2840,8 +3076,9 @@
     "zip_code": "67113",
     "town": "Mutterstadt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 253,
@@ -2852,8 +3089,9 @@
     "zip_code": "82319",
     "town": "Starnberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 254,
@@ -2864,8 +3102,9 @@
     "zip_code": "94315",
     "town": "Straubing",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 255,
@@ -2876,8 +3115,9 @@
     "zip_code": "70178",
     "town": "Stuttgart",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 256,
@@ -2888,8 +3128,9 @@
     "zip_code": "92237",
     "town": "Sulzbach-Rosenberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 257,
@@ -2900,8 +3141,9 @@
     "zip_code": "83684",
     "town": "Tegernsee",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 258,
@@ -2912,8 +3154,9 @@
     "zip_code": "83317",
     "town": "Teisendorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 260,
@@ -2924,8 +3167,9 @@
     "zip_code": "84529",
     "town": "Tittmoning",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 261,
@@ -2936,8 +3180,9 @@
     "zip_code": "83646",
     "town": "Bad Tölz",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 262,
@@ -2948,8 +3193,9 @@
     "zip_code": "83278",
     "town": "Traunstein",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 263,
@@ -2960,8 +3206,9 @@
     "zip_code": "91757",
     "town": "Treuchtlingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 264,
@@ -2972,8 +3219,9 @@
     "zip_code": "54290",
     "town": "Trier",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 265,
@@ -2984,8 +3232,9 @@
     "zip_code": "83308",
     "town": "Trostberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 266,
@@ -2996,8 +3245,9 @@
     "zip_code": "72070",
     "town": "Tübingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 267,
@@ -3008,8 +3258,9 @@
     "zip_code": "81667",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 269,
@@ -3020,8 +3271,9 @@
     "zip_code": "78532",
     "town": "Tuttlingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 270,
@@ -3032,8 +3284,9 @@
     "zip_code": "82323",
     "town": "Tutzing",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 271,
@@ -3044,8 +3297,9 @@
     "zip_code": "88662",
     "town": "Überlingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 272,
@@ -3056,8 +3310,9 @@
     "zip_code": "89073",
     "town": "Ulm",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 273,
@@ -3068,8 +3323,9 @@
     "zip_code": "80809",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 274,
@@ -3080,8 +3336,9 @@
     "zip_code": "82229",
     "town": "Seefeld",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 275,
@@ -3092,8 +3349,9 @@
     "zip_code": "83666",
     "town": "Waakirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 276,
@@ -3104,8 +3362,9 @@
     "zip_code": "88239",
     "town": "Wangen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 277,
@@ -3116,8 +3375,9 @@
     "zip_code": "83512",
     "town": "Wasserburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 278,
@@ -3128,8 +3388,9 @@
     "zip_code": "92637",
     "town": "Weiden",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 279,
@@ -3140,8 +3401,9 @@
     "zip_code": "88171",
     "town": "Weiler-Simmerberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 280,
@@ -3152,8 +3414,9 @@
     "zip_code": "82362",
     "town": "Weilheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 281,
@@ -3164,8 +3427,9 @@
     "zip_code": "69469",
     "town": "Weinheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 282,
@@ -3176,8 +3440,9 @@
     "zip_code": "91781",
     "town": "Weißenburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 283,
@@ -3188,8 +3453,9 @@
     "zip_code": "37671",
     "town": "Höxter",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 284,
@@ -3200,8 +3466,9 @@
     "zip_code": "35578",
     "town": "Wetzlar",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 285,
@@ -3212,8 +3479,9 @@
     "zip_code": "65207",
     "town": "Wiesbaden",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 286,
@@ -3224,8 +3492,9 @@
     "zip_code": "26386",
     "town": "Wilhelmshaven",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 287,
@@ -3236,8 +3505,9 @@
     "zip_code": "58452",
     "town": "Witten",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 288,
@@ -3248,8 +3518,9 @@
     "zip_code": "82515",
     "town": "Wolfratshausen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 289,
@@ -3260,8 +3531,9 @@
     "zip_code": "67547",
     "town": "Worms",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 290,
@@ -3272,8 +3544,9 @@
     "zip_code": "97082",
     "town": "Würzburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 291,
@@ -3284,8 +3557,9 @@
     "zip_code": "66497",
     "town": "Contwig",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 293,
@@ -3296,8 +3570,9 @@
     "zip_code": "72108",
     "town": "Rottenburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 294,
@@ -3308,8 +3583,9 @@
     "zip_code": "86316",
     "town": "Friedberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 296,
@@ -3320,8 +3596,9 @@
     "zip_code": "84416",
     "town": "Taufkirchen/Vils",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 297,
@@ -3332,8 +3609,9 @@
     "zip_code": "85604",
     "town": "Zorneding",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 298,
@@ -3344,8 +3622,9 @@
     "zip_code": "83624",
     "town": "Otterfing",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 299,
@@ -3356,8 +3635,9 @@
     "zip_code": "46395",
     "town": "Bocholt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 300,
@@ -3368,8 +3648,9 @@
     "zip_code": "42719",
     "town": "Solingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 301,
@@ -3380,8 +3661,9 @@
     "zip_code": "59955",
     "town": "Winterberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 303,
@@ -3392,8 +3674,9 @@
     "zip_code": "82409",
     "town": "Wildsteig",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 304,
@@ -3404,8 +3687,9 @@
     "zip_code": "83714",
     "town": "Miesbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 306,
@@ -3416,8 +3700,9 @@
     "zip_code": "88521",
     "town": "Ertingen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 307,
@@ -3428,8 +3713,9 @@
     "zip_code": "85739",
     "town": "Garching",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 308,
@@ -3440,8 +3726,9 @@
     "zip_code": "88339",
     "town": "Bad Waldsee",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 309,
@@ -3452,8 +3739,9 @@
     "zip_code": "81825",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 311,
@@ -3464,8 +3752,9 @@
     "zip_code": "82216",
     "town": "Maisach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 312,
@@ -3476,8 +3765,9 @@
     "zip_code": "87466",
     "town": "Oy-Mittelberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 313,
@@ -3488,8 +3778,9 @@
     "zip_code": "88630",
     "town": "Pfullendorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 314,
@@ -3500,8 +3791,9 @@
     "zip_code": "96328",
     "town": "Küps",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 315,
@@ -3512,8 +3804,9 @@
     "zip_code": "91186",
     "town": "Büchenbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 316,
@@ -3524,8 +3817,9 @@
     "zip_code": "06847",
     "town": "Dessau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 317,
@@ -3536,8 +3830,9 @@
     "zip_code": "07749",
     "town": "Jena",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 318,
@@ -3548,8 +3843,9 @@
     "zip_code": "04229",
     "town": "Leipzig",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 319,
@@ -3560,8 +3856,9 @@
     "zip_code": "07368",
     "town": "Remptendorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 320,
@@ -3572,8 +3869,9 @@
     "zip_code": "01159",
     "town": "Dresden",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 321,
@@ -3584,8 +3882,9 @@
     "zip_code": "98527",
     "town": "Suhl",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 322,
@@ -3596,8 +3895,9 @@
     "zip_code": "99084",
     "town": "Erfurt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 323,
@@ -3608,8 +3908,9 @@
     "zip_code": "09111",
     "town": "Chemnitz",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 324,
@@ -3620,8 +3921,9 @@
     "zip_code": "06114",
     "town": "Halle (Saale)",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 325,
@@ -3632,8 +3934,9 @@
     "zip_code": "07545",
     "town": "Gera",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 327,
@@ -3644,8 +3947,9 @@
     "zip_code": "08056",
     "town": "Zwickau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 328,
@@ -3656,8 +3960,9 @@
     "zip_code": "02708",
     "town": "Löbau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 329,
@@ -3668,8 +3973,9 @@
     "zip_code": "18146",
     "town": "Rostock",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 330,
@@ -3680,8 +3986,9 @@
     "zip_code": "04581",
     "town": "Altenburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 332,
@@ -3692,8 +3999,9 @@
     "zip_code": "74722",
     "town": "Buchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 333,
@@ -3704,8 +4012,9 @@
     "zip_code": "02763",
     "town": "Zittau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 334,
@@ -3716,8 +4025,9 @@
     "zip_code": "98617",
     "town": "Untermaßfeld",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 335,
@@ -3728,8 +4038,9 @@
     "zip_code": "99427",
     "town": "Weimar",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 336,
@@ -3740,8 +4051,9 @@
     "zip_code": "38855",
     "town": "Wernigerode",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 337,
@@ -3752,8 +4064,9 @@
     "zip_code": "99894",
     "town": "Leinatal OT Engelsbach",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 338,
@@ -3764,8 +4077,9 @@
     "zip_code": "14482",
     "town": "Potsdam",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 339,
@@ -3776,8 +4090,9 @@
     "zip_code": "10179",
     "town": "Berlin",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 340,
@@ -3788,8 +4103,9 @@
     "zip_code": "01968",
     "town": "Senftenberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 341,
@@ -3800,8 +4116,9 @@
     "zip_code": "98596",
     "town": "Brotterode-Trusetal",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 342,
@@ -3812,8 +4129,9 @@
     "zip_code": "99734",
     "town": "Nordhausen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 343,
@@ -3824,8 +4142,9 @@
     "zip_code": "01809",
     "town": "Heidenau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 344,
@@ -3836,8 +4155,9 @@
     "zip_code": "15898",
     "town": "Neuzelle OT Bahro",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 345,
@@ -3848,8 +4168,9 @@
     "zip_code": "91166",
     "town": "Georgensgmünd",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 346,
@@ -3860,8 +4181,9 @@
     "zip_code": "90537",
     "town": "Feucht",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 348,
@@ -3872,8 +4194,9 @@
     "zip_code": "90518",
     "town": "Altdorf",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 349,
@@ -3884,8 +4207,9 @@
     "zip_code": "94419",
     "town": "Reisbach/Englmannsberg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 350,
@@ -3896,8 +4220,9 @@
     "zip_code": "39112",
     "town": "Magdeburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 351,
@@ -3908,8 +4233,9 @@
     "zip_code": "91154",
     "town": "Roth",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 352,
@@ -3920,8 +4246,9 @@
     "zip_code": "53881",
     "town": "Euskirchen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 353,
@@ -3932,8 +4259,9 @@
     "zip_code": "91555",
     "town": "Feuchtwangen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 354,
@@ -3944,8 +4272,9 @@
     "zip_code": "19230",
     "town": "Toddin",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 356,
@@ -3956,8 +4285,9 @@
     "zip_code": "86916",
     "town": "Kaufering",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 357,
@@ -3968,8 +4298,9 @@
     "zip_code": "99510",
     "town": "Apolda",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 358,
@@ -3980,8 +4311,9 @@
     "zip_code": "97076",
     "town": "Würzburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 359,
@@ -3992,8 +4324,9 @@
     "zip_code": "13086",
     "town": "Berlin",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 360,
@@ -4004,8 +4337,9 @@
     "zip_code": "30826",
     "town": "Garbsen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 361,
@@ -4016,8 +4350,9 @@
     "zip_code": "91567",
     "town": "Herrieden",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 362,
@@ -4028,8 +4363,9 @@
     "zip_code": "74939",
     "town": "Zuzenhausen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 363,
@@ -4040,8 +4376,9 @@
     "zip_code": "66687",
     "town": "Wadern",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 364,
@@ -4052,8 +4389,9 @@
     "zip_code": "01069",
     "town": "Dresden",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 365,
@@ -4064,8 +4402,9 @@
     "zip_code": "99089",
     "town": "Erfurt",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 366,
@@ -4076,8 +4415,9 @@
     "zip_code": "06526",
     "town": "Sangerhausen",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 367,
@@ -4088,8 +4428,9 @@
     "zip_code": "86163",
     "town": "Augsburg",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 368,
@@ -4100,8 +4441,9 @@
     "zip_code": "85540",
     "town": "Haar",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 369,
@@ -4112,8 +4454,9 @@
     "zip_code": "80469",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 370,
@@ -4124,8 +4467,9 @@
     "zip_code": "04277",
     "town": "Leipzig",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 371,
@@ -4136,8 +4480,9 @@
     "zip_code": "03046",
     "town": "Cottbus",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 372,
@@ -4148,8 +4493,9 @@
     "zip_code": "14827",
     "town": "Wiesenburg/Mark",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 373,
@@ -4160,8 +4506,9 @@
     "zip_code": "47589",
     "town": "Uedem",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 374,
@@ -4172,8 +4519,9 @@
     "zip_code": "34123",
     "town": "Kassel",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 375,
@@ -4184,8 +4532,9 @@
     "zip_code": "85570",
     "town": "Markt Schwaben",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 376,
@@ -4196,8 +4545,9 @@
     "zip_code": "86983",
     "town": "Lechbruck",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 377,
@@ -4208,8 +4558,9 @@
     "zip_code": "91438",
     "town": "Bad Windsheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 378,
@@ -4220,8 +4571,9 @@
     "zip_code": "98693",
     "town": "Ilmenau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 379,
@@ -4232,8 +4584,9 @@
     "zip_code": "72193",
     "town": "Nagold",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 380,
@@ -4244,8 +4597,9 @@
     "zip_code": "82178",
     "town": "Puchheim",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 381,
@@ -4256,8 +4610,9 @@
     "zip_code": "16827",
     "town": "Alt Ruppin",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 382,
@@ -4268,8 +4623,9 @@
     "zip_code": "83043",
     "town": "Bad Aibling",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 383,
@@ -4280,8 +4636,9 @@
     "zip_code": "83486",
     "town": "Ramsau",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   },
   {
     "id": 384,
@@ -4292,7 +4649,8 @@
     "zip_code": "80469",
     "town": "München",
     "foundation_year": 0,
-    "section_canton": "N/A",
-    "language": "DE"
+    "section_canton": "",
+    "language": "DE",
+    "country": "DE"
   }
 ]
