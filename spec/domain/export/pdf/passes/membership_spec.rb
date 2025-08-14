@@ -49,7 +49,7 @@ describe Export::Pdf::Passes::Membership do
         [309, 182, "REGA 1414                    SOS Europe 112"],
         [311, 168, build_multilanguage_string("emergency_number")],
         [311, 137, build_multilanguage_string("emergency_contact")],
-        [490, 148, "www.sac-cas.ch"]
+        [490, 148, "www.alpenverein.de"]
       ]
     }
 
@@ -145,7 +145,7 @@ describe Export::Pdf::Passes::Membership do
         [309, 182, "REGA 1414                    SOS Europe 112"],
         [311, 137, build_multilanguage_string("emergency_contact")],
         [311, 168, build_multilanguage_string("emergency_number")],
-        [490, 148, "www.sac-cas.ch"],
+        [490, 148, "www.alpenverein.de"],
         [510, 83, "DAV-Partner"]
       ]
     }

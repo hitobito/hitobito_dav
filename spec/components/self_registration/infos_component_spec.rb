@@ -27,7 +27,7 @@ describe SelfRegistration::InfosComponent, type: :component do
 
     it "info text with link to faqs" do
       expect(body).to have_css("p.card-text", text: "Mehr Informationen findest du unter den FAQs")
-      expect(body).to have_link("FAQs", href: "https://www.sac-cas.ch/de/meta/faq/mitgliedschaft")
+      expect(body).to have_link("FAQs", href: "https://www.alpenverein.de/de/meta/faq/mitgliedschaft")
     end
   end
 
@@ -78,15 +78,15 @@ describe SelfRegistration::InfosComponent, type: :component do
     end
 
     it "renders link to statutes" do
-      expect(body).to have_link "Statuten", href: "https://www.sac-cas.ch/fileadmin/Spezial/DAV-Mitgliedschaft/DE/SAC_Statuten_A5_DE.pdf"
+      expect(body).to have_link "Statuten", href: "https://www.alpenverein.de/fileadmin/Spezial/DAV-Mitgliedschaft/DE/DAV_Statuten_A5_DE.pdf"
     end
 
     it "renders link to contributation regulations" do
-      expect(body).to have_link "Beitragsreglement", href: "https://www.sac-cas.ch/fileadmin/Spezial/DAV-Mitgliedschaft/DE/Beitragsreglement.pdf"
+      expect(body).to have_link "Beitragsreglement", href: "https://www.alpenverein.de/fileadmin/Spezial/DAV-Mitgliedschaft/DE/Beitragsreglement.pdf"
     end
 
     it "renders link to data protection" do
-      expect(body).to have_link "Datenschutzerklärung", href: "https://www.sac-cas.ch/de/meta/datenschutz"
+      expect(body).to have_link "Datenschutzerklärung", href: "https://www.alpenverein.de/de/meta/datenschutz"
     end
   end
 end

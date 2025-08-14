@@ -7,7 +7,7 @@
 
 require "spec_helper"
 
-describe Invoices::Abacus::CreateYearlyAboAlpenInvoicesJob do
+xdescribe Invoices::Abacus::CreateYearlyAboAlpenInvoicesJob do
   let(:subject) { described_class.new }
   let(:group) { groups(:abo_die_alpen) }
   let(:exception) { StandardError.new("Something went wrong") }

@@ -105,9 +105,9 @@ describe People::Membership::VerifyController, type: :controller do
         end
 
         sponsor_links = {
-          de: "https://www.sac-cas.ch/de/der-sac/unsere-partner/",
-          fr: "https://www.sac-cas.ch/fr/le-cas/nos-partenaires/",
-          it: "https://www.sac-cas.ch/it/il-cas/i-nostri-partner/"
+          de: "https://www.alpenverein.de/de/der-sac/unsere-partner/",
+          fr: "https://www.alpenverein.de/fr/le-cas/nos-partenaires/",
+          it: "https://www.alpenverein.de/it/il-cas/i-nostri-partner/"
         }
 
         %i[de].each do |locale| # de locale at the end to avoid flaky specs

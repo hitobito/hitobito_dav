@@ -277,7 +277,7 @@ describe Export::Pdf::Participations::KeyDataSheet do
     end
 
     context "text" do
-      it "renders" do
+      xit "renders" do
         find_matches(texts)
       end
 

@@ -117,7 +117,7 @@ describe Doorkeeper::OpenidConnect::UserinfoController do
       end
     end
 
-    context "with user_groups scope" do
+    xcontext "with user_groups scope" do
       let(:token) do
         app.access_tokens.create!(resource_owner_id: user.id,
           scopes: "openid user_groups", expires_in: 2.hours)

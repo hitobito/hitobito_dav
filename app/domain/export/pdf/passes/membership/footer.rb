@@ -76,7 +76,7 @@ class Export::Pdf::Passes::Membership
 
     def sac_cas_link
       fill_color(SAC_CAS_LINK_COLOR) do
-        text_box "www.sac-cas.ch",
+        text_box "www.alpenverein.de",
           at: SAC_CAS_LINK_POSITION,
           size: SAC_CAS_LINK_SIZE
       end

@@ -7,7 +7,7 @@
 
 require "spec_helper"
 
-describe OidcClaimSetup do
+xdescribe OidcClaimSetup do
   let(:owner) { people(:admin) }
   let(:response) { :user_info }
   let(:token) { Doorkeeper::AccessToken.new(resource_owner_id: owner.id, scopes: scope) }

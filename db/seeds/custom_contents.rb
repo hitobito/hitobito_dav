@@ -335,10 +335,10 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
    label: "SAC Eintritt: Bestellbestätigung ohne Freigabe",
    subject: "SAC Eintritt Bestellbestätigung",
    body: "Hallo {first-name},<br><br>" \
-    "Wir freuen uns sehr, dass du dich für eine SAC-Mitgliedschaft entscheiden hast " \
+    "Wir freuen uns sehr, dass du dich für eine DAV-Mitgliedschaft entscheiden hast " \
     "und nun Teil des grössten Bergsportverbands der Schweiz bist.<br><br>" \
     "Folgende Angaben haben wir von dir erhalten. Sollten diese nicht korrekt sein, kannst du " \
-    "sie im <a href='{profile-url}'>SAC-Portal</a> selbstständig anpassen.<br><br>" \
+    "sie im <a href='{profile-url}'>DAV-Portal</a> selbstständig anpassen.<br><br>" \
     "<h2>Sektion und Mitgliedschaft</h2><br><br>" \
     "Sektion: {section-name}<br>" \
     "Mitgliedschaftskategorie: {membership-category}<br>" \
@@ -360,7 +360,7 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
     "Land: {country}<br><br>" \
     "Du wirst in kürze eine weitere E-Mail mit der Rechnung erhalten. Sobald die Zahlung bei uns eingegangen ist, " \
     "wird deine Mitgliedschaft vollständig aktiviert und alle Dienste können genutzt werden.<br><br>" \
-    "Den digitalen Mitgliederausweis findest du in deinem <a href='{profile-url}'>SAC-Portal</a> Profil. " \
+    "Den digitalen Mitgliederausweis findest du in deinem <a href='{profile-url}'>DAV-Portal</a> Profil. " \
     "Weitere Details zum digitalen Mitgliederausweis findest im <a href='{faq-url}'>FAQ</a>.<br><br>" \
     "Viel Spass beim SAC!"},
   {custom_content_id: CustomContent.get(Signup::SektionMailer::APPROVAL_PENDING_CONFIRMATION).id,
@@ -368,12 +368,12 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
    label: "SAC Eintritt: Bestellbestätigung mit Freigabe",
    subject: "SAC Eintritt Bestellbestätigung",
    body: "Hallo {first-name},<br><br>" \
-    "Wir freuen uns sehr, dass du dich für eine SAC-Mitgliedschaft interessierst " \
+    "Wir freuen uns sehr, dass du dich für eine DAV-Mitgliedschaft interessierst " \
     "und eine Mitgliedschaft beantragt hast.<br><br>" \
     "Dein Antrag wurde an die Sektion {section-name} weitergeleitet. " \
     "Über die Aufnahme neuer Mitglieder entscheidet die Sektion.<br><br>" \
     "Folgende Angaben haben wir von dir erhalten. Sollten diese nicht korrekt sein, kannst du " \
-    "sie im <a href='{profile-url}'>SAC-Portal</a> selbstständig anpassen.<br><br>" \
+    "sie im <a href='{profile-url}'>DAV-Portal</a> selbstständig anpassen.<br><br>" \
     "<h2>Sektion und Mitgliedschaft</h2><br><br>" \
     "Sektion: {section-name}<br>" \
     "Mitgliedschaftskategorie: {membership-category}<br>" \
@@ -395,7 +395,7 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
     "Land: {country}<br><br>" \
     "Du wirst in kürze eine weitere E-Mail mit der Rechnung erhalten. Sobald die Zahlung bei uns eingegangen ist, " \
     "wird deine Mitgliedschaft vollständig aktiviert und alle Dienste können genutzt werden.<br><br>" \
-    "Den digitalen Mitgliederausweis findest du in deinem <a href='{profile-url}'>SAC-Portal</a> Profil. " \
+    "Den digitalen Mitgliederausweis findest du in deinem <a href='{profile-url}'>DAV-Portal</a> Profil. " \
     "Weitere Details zum digitalen Mitgliederausweis findest im <a href='{faq-url}'>FAQ</a>.<br><br>" \
     "Vielen Dank"},
   {custom_content_id: CustomContent.get(Memberships::JoinZusatzsektionMailer::CONFIRMATION).id,
@@ -406,7 +406,7 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
     "Wir freuen uns sehr, dass du dich für eine Zusatzsektion interessierst " \
     "und eine Mitgliedschaft beantragt hast.<br><br>" \
     "Folgende Angaben haben wir von dir erhalten. Sollten diese nicht korrekt sein, kannst du " \
-    "sie im <a href='{profile-url}'>SAC-Portal</a> selbstständig anpassen.<br><br>" \
+    "sie im <a href='{profile-url}'>DAV-Portal</a> selbstständig anpassen.<br><br>" \
     "<h2>Sektion und Mitgliedschaft</h2><br><br>" \
     "Sektion: {section-name}<br>" \
     "Mitgliedschaftskategorie: {membership-category}<br>" \
@@ -428,7 +428,7 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
     "Land: {country}<br><br>" \
     "Du wirst in kürze eine weitere E-Mail mit der Rechnung erhalten. Sobald die Zahlung bei uns eingegangen ist, " \
     "wird deine Mitgliedschaft vollständig aktiviert und alle Dienste können genutzt werden.<br><br>" \
-    "Den digitalen Mitgliederausweis findest du in deinem <a href='{profile-url}'>SAC-Portal</a> Profil. " \
+    "Den digitalen Mitgliederausweis findest du in deinem <a href='{profile-url}'>DAV-Portal</a> Profil. " \
     "Weitere Details zum digitalen Mitgliederausweis findest im <a href='{faq-url}'>FAQ</a>.<br><br>" \
     "Vielen Dank!"},
   {custom_content_id: CustomContent.get(Memberships::JoinZusatzsektionMailer::APPROVAL_PENDING_CONFIRMATION).id,
@@ -441,7 +441,7 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
     "Dein Antrag wurde an die Sektion {section-name} weitergeleitet. " \
     "Über die Aufnahme neuer Mitglieder entscheidet die Sektion.<br><br>" \
     "Folgende Angaben haben wir von dir erhalten. Sollten diese nicht korrekt sein, kannst du " \
-    "sie im <a href='{profile-url}'>SAC-Portal</a> selbstständig anpassen.<br><br>" \
+    "sie im <a href='{profile-url}'>DAV-Portal</a> selbstständig anpassen.<br><br>" \
     "<h2>Sektion und Mitgliedschaft</h2><br><br>" \
     "Sektion: {section-name}<br>" \
     "Mitgliedschaftskategorie: {membership-category}<br>" \
@@ -463,7 +463,7 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
     "Land: {country}<br><br>" \
     "Du wirst in kürze eine weitere E-Mail mit der Rechnung erhalten. Sobald die Zahlung bei uns eingegangen ist, " \
     "wird deine Zusatzmitgliedschaft vollständig aktiviert und alle Dienste können genutzt werden.<br><br>" \
-    "Den digitalen Mitgliederausweis findest du in deinem <a href='{profile-url}'>SAC-Portal</a> Profil. " \
+    "Den digitalen Mitgliederausweis findest du in deinem <a href='{profile-url}'>DAV-Portal</a> Profil. " \
     "Weitere Details zum digitalen Mitgliederausweis findest im <a href='{faq-url}'>FAQ</a>.<br><br>" \
     "Vielen Dank!"},
   {custom_content_id: CustomContent.get(Invoices::SacMembershipsMailer::MEMBERSHIP_ACTIVATED).id,
@@ -473,7 +473,7 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
    body: "Hallo {first-name},<br><br>" \
     "Vielen Dank für deine Zahlung, welche bei uns eingegangen ist. Deine Mitgliedschaft ist jetzt " \
     "vollständig aktiviert und alle Dienste des Schweizer Alpen-Clubs SAC können genutzt werden.<br><br>" \
-    "Deinen digitalen Mitgliederausweis findest du in deinem Profil im <a href='{profile-url}'>SAC-Portal</a>. " \
+    "Deinen digitalen Mitgliederausweis findest du in deinem Profil im <a href='{profile-url}'>DAV-Portal</a>. " \
     "Weitere Details zum digitalen Mitgliederausweis findest du in den FAQ.<br><br> " \
     "Viel Spass beim SAC!"},
   {custom_content_id: CustomContent.get(Memberships::TerminateMembershipMailer::LEAVE_ZUSATZSEKTION).id,
@@ -504,7 +504,7 @@ CustomContent::Translation.seed_once(:custom_content_id, :locale,
     "wurde. Herzlich Willkommen beim Schweizer Alpen-Club SAC!<br><br>" \
     "Du wirst in Kürze eine weitere E-Mail mit der Mitglieder-Rechnung erhalten. Sobald die Zahlung bei uns " \
     "eingegangen ist, wird deine Mitgliedschaft vollständig aktiviert und alle Dienste können genutzt werden.<br><br>" \
-    "Den digitalen Mitgliederausweis findest du in deinem Profil im <a href='{profile-url}'>SAC-Portal</a>. " \
+    "Den digitalen Mitgliederausweis findest du in deinem Profil im <a href='{profile-url}'>DAV-Portal</a>. " \
     "Weitere Details zum digitalen Mitgliederausweis findest du in den FAQ.<br><br>" \
     "Viel Spass beim SAC!"},
   {custom_content_id: CustomContent.get(People::NeuanmeldungenMailer::REJECTED).id,

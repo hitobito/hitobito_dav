@@ -14,9 +14,9 @@ module MembershipVerifyHelper
 
   def localized_sac_sponsors_url
     {
-      de: "https://www.sac-cas.ch/de/der-sac/unsere-partner/",
-      fr: "https://www.sac-cas.ch/fr/le-cas/nos-partenaires/",
-      it: "https://www.sac-cas.ch/it/il-cas/i-nostri-partner/"
+      de: "https://www.alpenverein.de/de/der-sac/unsere-partner/",
+      fr: "https://www.alpenverein.de/fr/le-cas/nos-partenaires/",
+      it: "https://www.alpenverein.de/it/il-cas/i-nostri-partner/"
     }[file_locale]
   end
 end
