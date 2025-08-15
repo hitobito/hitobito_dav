@@ -7,6 +7,21 @@
 
 namespace :dav do
   namespace :seed do
+    desc "Seed Demo data"
+    task :demo, [:limit] => :environment do |_t, args|
+      limit = args[:limit].present? ? Integer(args[:limit]) : 15
+
+      Rake::Task["dav:seed:all_sections"].invoke(limit)
+      [
+        "dav:seed:common_groups",
+        "dav:seed:various_data",
+        "dav:seed:bazillion_people",
+        "dav:seed:events"
+      ].each do |task_name|
+        Rake::Task[task_name].invoke
+      end
+    end
+
     desc "Seed all DAV sections, optionally limit the amount: `dav:seed:all_sections[42]"
     task :all_sections, [:limit] => :environment do |_t, args|
       require HitobitoDav::Wagon.root.join("db", "seeds", "support", "dav_sections").to_s
@@ -103,6 +118,18 @@ namespace :dav do
         name: "Druckereien",
         parent_id: Group::ExterneKontakte.find_by(name: "Externe Kontakte").id
       })
+
+      unless Group::SacCasKurskader.exists?
+        Group::SacCasKurskader.seed_once(:type, parent: Group.root)
+      end
+
+      unless Group::SacCasVerbaende.exists?
+        Group::SacCasVerbaende.seed_once(:type, :parent_id, name: "Verbände & Organisationen", parent: Group.root)
+      end
+
+      unless Group::SacCasPrivathuetten.exists?
+        Group::SacCasPrivathuetten.seed_once(:type, parent: Group.root)
+      end
     end
 
     desc "Seed various data (event kinds, qualifications, membership configs etc.)"
@@ -117,7 +144,34 @@ namespace :dav do
 
     desc "Seed events for all sections"
     task events: :environment do
-      require HitobitoDav::Wagon.root.join("db", "seeds", "development", "events").to_s
+      require HitobitoDav::Wagon.root.join("db", "seeds", "development", "support", "sac_event_seeder")
+
+      srand(42)
+
+      seeder = SacEventSeeder.new
+
+      unless Event.joins(:groups).where(groups: {id: Group.root.id}).exists?
+        8.times do
+          seeder.seed_event(Group.root.id, :course)
+        end
+        2.times do
+          seeder.seed_event(Group.root.id, :course).update_column(:state, :assignment_closed)
+        end
+      end
+
+      Group.where(type: [Group::Sektion, Group::Ortsgruppe].map(&:sti_name)).find_each do |group|
+        next if Event.joins(:groups).where(groups: {id: group.id}).exists?
+
+        10.times do
+          seeder.seed_event(group.id, :tour)
+        end
+        2.times do
+          seeder.seed_event(group.id, :course)
+        end
+        2.times do
+          seeder.seed_event(group.id, :base)
+        end
+      end
     end
   end
 end
