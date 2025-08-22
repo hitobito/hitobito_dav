@@ -3,46 +3,66 @@
 //  or later. See the COPYING file at the top-level directory or at
 //  https://github.com/hitobito/hitobito_sac_cas.
 
-$sac_red: #e30613;
-$sac_red_hover: #b00511;
-$sac_green: #84be41;
-$sac_green_hover: #83a81b;
-$sac_blue: #00a3da;
-$sac_black: #333333;
-$sac_gray_dark: #706f6f;
-$sac_gray_dotted_lines: #c6c7c8;
-$sac_gray: #e9e9e9;
-$sac_gray_light: #f4f4f4;
-$sac_shades: #f9f9f9;
-$sac_bergwandern: #237100;
-$sac_hochtouren: #662d91;
-$sac_klettern: #ff3d12;
-$sac_klettersteig: #ff8800;
-$sac_skitouren: #0033ff;
-$sac_schneeschuhtouren: #008a79;
-$sac_huetten_privat: #ffbb00;
+// Colors defined by the DAV Corporate Design
+$dav-mittelgruen: #50ae2f;
+$dav-mittelgruen-dark: #2c8732;
+$dav-mittelgruen-darker: #00652d;
 
-$dav-body: #51565d;
-$dav-fill: #3b696d;
-$dav-footer: #363b44;
-$dav-footer-partner: #707680;
+$dav-warmgruen: #a2c617;
+$dav-warmgruen-dark: #638d24;
+$dav-warmgruen-darker: #2d5e20;
 
-$dav-primary: #00652d;
-$dav-primary-darken: #2c8732;
-$dav-primary-light: #50AE2F;
+$dav-kaltgruen: #42b38e;
+$dav-kaltgruen-dark: #008a77;
+$dav-kaltgruen-darker: #00675f;
+
+$dav-sandstein: #d6ad00;
+$dav-sandstein-dark: #9c761f;
+$dav-sandstein-darker: #694718;
+
+$dav-kaltblau: #80a8d1;
+$dav-kaltblau-dark: #2c7eb2;
+$dav-kaltblau-darker: #00578d;
+
+$dav-eisblau: #46bfe0;
+$dav-eisblau-dark: #0092a7;
+$dav-eisblau-darker: #006c76;
+
+$dav-kaltgrau: #82aabd;
+$dav-kaltgrau-dark: #4b7d90;
+$dav-kaltgrau-darker: #005264;
+
+$dav-klettergebiete: #96a499;
+$dav-klettergebiete-light: #c8ccc9;
+$dav-klettergebiete-dark: #677266;
+
+$dav-klettern-indoor: #f9b000;
+$dav-klettern-indoor-dark: #f18700;
+$dav-klettern-indoor-darker: #ec6608;
+
+$dav-mtb: #3b594c;
+$dav-mtb-light: #69917f;
+$dav-mtb-lighter: #8ebda7;
+
+// Additional colors
+
+$dav-alpenverein-body: #51565d;
+$dav-alpenverein-fill: #3b696d;
+$dav-alpenverein-footer: #363b44;
+$dav-alpenverein-footer-partner: #707680;
+
+$dav-primary: $dav-warmgruen-darker;
+$dav-primary-darken: darken($dav-primary, 30%);
+$dav-primary-light: $dav-warmgruen;
+$dav-primary-lighter: lighten($dav-warmgruen, 30%);
 
 $dav-secondary: #9abd3d;
 
-$dav-text-base: #51565d;
+$dav-text-base: $dav-alpenverein-body;
 $dav-text-highlight: #3b696d;
 $dav-text-inverted: #fff;
 
-$dav-black: $dav-footer;
-$dav-gray: $dav-footer-partner;
-$dav-gray-dark: darken($dav_gray, 20%);
-$dav-gray-light: lighten($dav_gray, 40%);
-$dav-white: #eee;
-$dav-red: $sac_red;
+$dav-red: #9a001f;
 
 /* Bootstrap variable definition here */
 
@@ -51,45 +71,51 @@ $dav-red: $sac_red;
 
 // Grays
 // -------------------------
-$black: $dav-black !default;
-$gray-darker: darken($dav-gray-dark, 15%) !default;
-$gray-dark: darken($dav-gray-dark, 5%) !default;
-$gray: $dav-gray-dark !default;
-$gray-light: $dav-gray !default;
-$gray-lighter: $dav-gray-light !default;
-$white: #fff !default;
+$black:                 #474E5D !default;
+$gray-darker:           #696E79 !default;
+$gray-dark:             #8b8b8b !default;
+$gray:                  #979CA6 !default;
+$gray-light:            #E8EBF0 !default;
+$gray-lighter:          #F8F9FA !default;
+$white:                 #fff !default;
 
 // Colors
 // ----------------------------
-$blue: $dav-primary !default;
-$blue-dark: $dav-primary-darken !default;
-$green: $dav-secondary !default;
-$green-dark: darken($dav-secondary, 10%) !default;
+$blue:                  #329897 !default;
+$blue-dark:             darken($blue, 10%) !default;
+$green:                 #8DB850 !default;
+$green-dark:            darken($green, 10%) !default;
 
-$orange: $dav-primary !default;
-$orange-dark: $dav-primary-darken !default;
-$purple: $dav-primary-darken !default;
-$purple-dark: darken($dav-primary-darken, 10%) !default;
+$orange:                #DC795B;
+$orange-dark:           #C75B3B;
+$purple:                #925D97;
+$purple-dark:           #6A396F;
 
 $red: $dav-red !default;
 
-$text-color: $dav-text-base !default;
-$border-color: $dav-gray-light !default;
+$text-color:            $dav-alpenverein-body !default;
+$border-color:          $gray-light !default;
 
-$page-background: $dav-white;
-$content-background: $dav-gray-light;
-$footer-background: $dav-footer;
-$body-background: $footer-background !default;
+$page-background:       $white;
+$content-background:    $gray-light;
+$footer-background:     $dav-alpenverein-footer;
+$body-background:       $footer-background !default;
 
-$focus-color: $dav-text-highlight;
-$shadow-color: $dav-gray-light;
-$link-color: $dav-primary !default;
-$link-color-hover: $dav-primary-darken !default;
+$focus-color:           $purple;
+$shadow-color:          darken($page-background, 10%);
+$link-color:            $dav-primary !default;
+$link-hover-color:      $dav-primary-light !default;
 
-$footer-color: $white;
-$footer-color-hover: $dav-primary-light;
+$footer-color:          $white;
+$footer-color-hover:    $white;
 
-$table-color-hover: $dav-primary-light;
+$table-color-hover:      lighten($purple, 50%);
+
+
+//$nav-pills-link-active-color: $white;
+//$nav-pills-link-active-bg: $dav-primary;
+//$nav-link-hover-color: $red;
+$btn-color: $dav-primary;
 
 // Typography
 // -------------------------

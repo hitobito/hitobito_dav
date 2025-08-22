@@ -3,9 +3,52 @@
 //  or later. See the COPYING file at the top-level directory or at
 //  https://github.com/hitobito/hitobito_sac_cas.
 
+.btn {
+  color: $dav-primary;
+
+  &:hover, &:focus, &.active {
+    background-color: $dav-primary;
+    //border-color: $dav-primary-light;
+  }
+}
+
+.btn-primary {
+  background-color: $dav-primary;
+}
+
+.btn-outline-primary {
+  color: $dav-primary;
+  border-color: $dav-primary;
+
+  &:hover, &:focus, &.active {
+    color: $white;
+    background-color: $dav-primary;
+    border-color: $dav-primary-light;
+  }
+}
+
+.nav-pills .nav-link.active :hover,
+.nav-pills .nav-link.active :focus {
+  color: $dav-primary-lighter;
+}
+
+.nav-pills .nav-link.active {
+  color: $white;
+  background-color: $dav-primary;
+}
+
+.nav-pills > .nav-item :hover,
+.nav-pills > .nav-item :focus {
+  color: $dav-primary-light;
+}
+
+.nav-pills > .nav-link a:hover {
+  color: $dav-primary-light;
+}
+
 #page-header a,
 .is-logged-out #page-header a {
-  color: $sac_black;
+  color: $black;
 }
 
 .table-borderless {
