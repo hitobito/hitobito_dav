@@ -12,17 +12,12 @@ class Export::Pdf::Passes::Sections::Logo < Export::Pdf::Section
 
   def render_logo
     float do
-      image(logo_path, at: [141.208, 190.542], width: 143.579, height: 59.957)
+      image(logo_path, at: [160, 180], width: 120)
     end
   end
 
   def logo_path
-    logo_lang = if [:it, :de, :fr].include?(I18n.locale)
-      I18n.locale
-    else
-      :de
-    end
-    logo = "pdf/sac_logo_cmyk_#{logo_lang}_pos.opti.jpg"
+    logo = "dav-logo.png"
 
     image_path(logo)
   end

@@ -71,7 +71,7 @@ class Export::Pdf::Passes::Membership
 
       write_in_boxes(RIGHT_SIDE_LEFT_START)
 
-      sac_cas_link
+      # sac_cas_link
     end
 
     def sac_cas_link
@@ -161,7 +161,7 @@ class Export::Pdf::Passes::Membership
     end
 
     def sponsor_qr_code
-      qr_code = RQRCode::QRCode.new(t("sponsor_url")).as_png(size: 70).to_s
+      qr_code = RQRCode::QRCode.new(t("sponsor_url")).as_png(size: 80).to_s
       StringIO.new(qr_code)
     end
 
