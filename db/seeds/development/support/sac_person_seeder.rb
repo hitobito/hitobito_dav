@@ -44,6 +44,8 @@ class SacPersonSeeder < PersonSeeder
   def seed_families
     PaperTrail.request.whodunnit = Person.root
     Group::SektionsMitglieder.find_each do |m|
+      next if m.roles.where(beitragskategorie: :family).exists?
+
       adult = seed_sac_adult(family_main_person: true)
       second_adult = seed_sac_adult
       child = seed_sac_child

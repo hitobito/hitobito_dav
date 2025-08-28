@@ -10,7 +10,6 @@ namespace :dav do
     desc "Seed Demo data"
     task :demo, [:limit] => :environment do |_t, args|
       limit = args[:limit].present? ? Integer(args[:limit]) : 15
-
       Rake::Task["dav:seed:all_sections"].invoke(limit)
       [
         "dav:seed:common_groups",
@@ -65,25 +64,7 @@ namespace :dav do
     task bazillion_people: :environment do
       require HitobitoDav::Wagon.root.join("db", "seeds", "development", "support", "sac_person_seeder").to_s
 
-      seeder = Class.new(SacPersonSeeder) do
-        def seed_role_type(group, role_type)
-          # Skip seeding roles of given type if the group already has such roles
-          return if group.roles.with_inactive.exists?(type: role_type.sti_name)
-
-          count = amount(role_type)
-          count.times do
-            p = Person.seed(:email, person_attributes(role_type)).first
-            seed_accounts(p, count == 1)
-            seed_role(p, group, role_type)
-          end
-        end
-
-        def update_role_dates(role_class)
-          super
-        rescue ActiveRecord::RecordInvalid => e
-          puts "Error updating role dates for #{role_class.name}[#{e.record.id}]: #{e.record.errors.full_messages.join(", ")}"
-        end
-      end.new
+      seeder = DavPersonSeeder.new
 
       seeder.seed_all_roles
       seeder.update_mitglieder_role_dates
@@ -96,24 +77,16 @@ namespace :dav do
     task common_groups: :environment do
       root = Group.root
 
-      Group::Geschaeftsstelle.seed_once(:parent_id, {
-        parent_id: root.id
-      })
-
-      Group::Geschaeftsleitung.seed_once(:parent_id, {
-        parent_id: root.id
-      })
-
+      Group::Geschaeftsstelle.seed_once(:parent_id, parent_id: root.id)
+      Group::Geschaeftsleitung.seed_once(:parent_id, parent_id: root.id)
       Group::ExterneKontakte.seed_once(:name, :parent_id, {
         name: "Externe Kontakte",
         parent_id: root.id
       })
-
       Group::ExterneKontakte.seed_once(:name, :parent_id, {
         name: "Autoren",
         parent_id: Group::ExterneKontakte.find_by(name: "Externe Kontakte").id
       })
-
       Group::ExterneKontakte.seed_once(:name, :parent_id, {
         name: "Druckereien",
         parent_id: Group::ExterneKontakte.find_by(name: "Externe Kontakte").id
@@ -171,6 +144,59 @@ namespace :dav do
         2.times do
           seeder.seed_event(group.id, :base)
         end
+      end
+    end
+
+    # desc "Purge before load testing seeding: removes all sections and people"
+    # task purge: :environment do
+    #   PaperTrail.enabled = false
+    #   groups = Group.where(type: [Group::Sektion.sti_name, Group::Ortsgruppe.sti_name])
+    #   Group::Translation.where(group_id: groups.pluck(:id)).delete_all
+    #   groups.delete_all
+    #   Person.delete_all
+    # end
+
+    desc "Seed for load testing"
+    task load_testing: :environment do |_t, args|
+      PaperTrail.enabled = false
+      Person.skip_callback :update, :after, :schedule_duplicate_locator
+
+      # Rake::Task["dev:local:admin"].invoke
+      # Rake::Task["dav:seed:common_groups"].invoke
+      # Rake::Task["dav:seed:various_data"].invoke
+      # Rake::Task["dav:seed:all_sections"].invoke
+
+      %w[sac_person_seeder loadtest_person_seeder db_mitglieder_seeder].each do |file|
+        require HitobitoDav::Wagon.root.join("db", "seeds", "development", "support", file).to_s
+      end
+
+      # seeder = LoadtestPersonSeeder.new
+      # seeder.seed_all_roles
+
+      max_amount = 2_000_000
+      Group::SektionsMitglieder.includes(:layer_group).each do |group|
+        amount = [
+          (max_amount.to_f / group.layer_group_id).to_i,
+          10_000
+        ].max
+
+        DbMitgliederSeeder.new(group, amount).seed
+      end
+
+      puts "\e[32mDone\e[0m"
+    end
+
+    desc "Enable tours on all sections"
+    task enable_tours: :environment do
+      Group.where(type: [Group::Sektion.sti_name, Group::Ortsgruppe.sti_name]).find_each do |group|
+        group.update!(tours_enabled: true)
+      end
+    end
+
+    desc "Disable tours on all sections"
+    task disable_tours: :environment do
+      Group.where(type: [Group::Sektion.sti_name, Group::Ortsgruppe.sti_name]).find_each do |group|
+        group.update!(tours_enabled: false)
       end
     end
   end
