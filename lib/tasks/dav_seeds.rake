@@ -164,7 +164,7 @@ namespace :dav do
       require HitobitoDav::Wagon.root.join("db", "seeds", "development", "support", "db_mitglieder_seeder").to_s
 
       max_amount = 2_000_000
-      Group::SektionsMitglieder.includes(:layer_group).each do |group|
+      Group::SektionsMitglieder.includes(:layer_group).find_each(batch_size: 10_000) do |group|
         amount = [
           (max_amount.to_f / group.layer_group_id).to_i,
           10_000
