@@ -14,6 +14,6 @@ class DavPersonSeeder < SacPersonSeeder
   def update_role_dates(role_class)
     super
   rescue ActiveRecord::RecordInvalid => e
-    puts "Error updating role dates for #{role_class.name}[#{e.record.id}]: #{e.record.errors.full_messages.join(", ")}"
+    puts "Error updating role dates for #{role_class.name}[#{e.record.id}]: #{e.record.errors.full_messages.join(", ")}" # rubocop:disable Rails/Output
   end
 end

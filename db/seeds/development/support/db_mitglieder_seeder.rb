@@ -1,3 +1,4 @@
+# rubocop:disable Rails/Output,Rails/TimeZone,Rails/Date,Rails/FindEach
 class DbMitgliederSeeder
   def initialize(group, amount)
     @group = group
@@ -54,3 +55,4 @@ class DbMitgliederSeeder
     end
   end
 end
+# rubocop:enable Rails/Output,Rails/TimeZone,Rails/Date,Rails/FindEach
