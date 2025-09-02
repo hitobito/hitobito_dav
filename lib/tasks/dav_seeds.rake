@@ -157,21 +157,11 @@ namespace :dav do
     # end
 
     desc "Seed for load testing"
-    task load_testing: :environment do |_t, args|
+    task load_testing: :environment do
       PaperTrail.enabled = false
       Person.skip_callback :update, :after, :schedule_duplicate_locator
 
-      # Rake::Task["dev:local:admin"].invoke
-      # Rake::Task["dav:seed:common_groups"].invoke
-      # Rake::Task["dav:seed:various_data"].invoke
-      # Rake::Task["dav:seed:all_sections"].invoke
-
-      %w[sac_person_seeder loadtest_person_seeder db_mitglieder_seeder].each do |file|
-        require HitobitoDav::Wagon.root.join("db", "seeds", "development", "support", file).to_s
-      end
-
-      # seeder = LoadtestPersonSeeder.new
-      # seeder.seed_all_roles
+      require HitobitoDav::Wagon.root.join("db", "seeds", "development", "support", "db_mitglieder_seeder").to_s
 
       max_amount = 2_000_000
       Group::SektionsMitglieder.includes(:layer_group).each do |group|
