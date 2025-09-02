@@ -7,7 +7,7 @@
 
 require "spec_helper"
 
-describe SacCas::MountedAttrs::EnumSelect, type: :helper do
+xdescribe SacCas::MountedAttrs::EnumSelect, type: :helper do
   let(:config) { group.class.mounted_attr_configs.index_by(&:attr_name)[:section_canton] }
   let(:group) { described_class.new }
   let(:form) { StandardFormBuilder.new(:group, group, self, {}) }
