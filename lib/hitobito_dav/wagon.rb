@@ -44,6 +44,13 @@ module HitobitoDav
     end
 
     config.to_prepare do # rubocop:disable Metrics/BlockLength
+      # prevent re-adding search columns as we test with millions of records and this takes ages
+      SearchColumnBuilder.prepend(Module.new do
+        def initialize(drop_columns: false)
+          super
+        end
+      end)
+
       JobManager.wagon_jobs += [
         Event::CloseApplicationsJob,
         Event::ParticipantReminderJob,
