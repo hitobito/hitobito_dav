@@ -14,6 +14,14 @@ module SacCas::PeopleController
   prepended do
     before_action :set_lookup_prefixes
     before_update :check_birthday, :check_email
+
+    rescue_from ActiveRecord::RecordNotFound do |exception|
+      if action_name == "show" && Person.where(id: params[:id]).exists?
+        redirect_to person_path(id: params[:id])
+      else
+        raise exception
+      end
+    end
   end
 
   def list_filter_args
