@@ -6,6 +6,10 @@
 #  https://github.com/hitobito/hitobito_sac_cas.
 
 class SelfRegistration::InfosComponent < ApplicationComponent
+  def initialize(group)
+    @group = group.decorate
+  end
+
   def additional_infos
     t(".additional_infos", link: build_link(:faqs)).html_safe
   end

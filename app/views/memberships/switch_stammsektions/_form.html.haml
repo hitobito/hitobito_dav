@@ -15,4 +15,4 @@
             adult: wizard.fees_for(:adult),
             family: wizard.fees_for(:family),
             youth: wizard.fees_for(:youth)
-        = render(SelfRegistration::InfosComponent.new)
+        = render(SelfRegistration::InfosComponent.new(group.layer_group))

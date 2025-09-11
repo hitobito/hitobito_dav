@@ -11,4 +11,4 @@
   = render 'wizards/signup/section_fee_details', active: wizard.beitragskategorie_adult?, presenter: wizard.fees_for(:adult)
   = render 'wizards/signup/section_fee_details', active: wizard.beitragskategorie_family?, presenter: wizard.fees_for(:family)
   = render 'wizards/signup/section_fee_details', active: wizard.beitragskategorie_youth?, presenter: wizard.fees_for(:youth)
-  = render(SelfRegistration::InfosComponent.new)
+  = render(SelfRegistration::InfosComponent.new(group.layer_group))

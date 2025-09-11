@@ -13,7 +13,7 @@ class Signup::AboMagazinMailer < ApplicationMailer
 
   def confirmation(person, group, newsletter_subscribed)
     @person = person
-    @group = group
+    @group = group.decorate
     @newsletter_subscribed = newsletter_subscribed
 
     I18n.with_locale(person.language) do

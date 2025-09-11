@@ -3,4 +3,4 @@
 -#  or at https://github.com/hitobito/hitobito.
 
 = turbo_frame_tag(partial_name, class: 'col-md') do
-  = render(SelfRegistration::InfosComponent.new)
+  = render(SelfRegistration::InfosComponent.new(group.layer_group))

@@ -11,4 +11,4 @@
       .col-md
         - if wizard.step(:choose_sektion)&.group
           = render 'wizards/signup/section_fee_details', active: true, presenter: wizard.fee_presenter
-        = render(SelfRegistration::InfosComponent.new)
+        = render(SelfRegistration::InfosComponent.new(group.layer_group))
