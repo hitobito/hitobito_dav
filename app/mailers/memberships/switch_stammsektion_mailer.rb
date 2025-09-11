@@ -9,6 +9,7 @@ class Memberships::SwitchStammsektionMailer < ApplicationMailer
   CONFIRMATION = "memberships_switch_stammsektion_confirmation"
 
   def confirmation(person, section, previous_section)
+    @group = section.decorate
     @person = person
     @section = section
     headers[:cc] = Group::Geschaeftsstelle.first.email

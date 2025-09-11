@@ -13,6 +13,7 @@ class Invoices::SacMembershipsMailer < ApplicationMailer
   def confirmation(person, section, beitragskategorie)
     @person = person
     @section = section
+    @group = section.decorate
     @beitragskategorie = beitragskategorie
 
     headers[:bcc] = [

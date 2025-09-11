@@ -20,6 +20,7 @@ class Memberships::TerminateMembershipMailer < ApplicationMailer
   private
 
   def send_confirmation(key, person, sektion, terminate_on)
+    @group = sektion.decorate
     @person = person
     @sektion = sektion
     headers[:cc] = Group::Geschaeftsstelle.first.email

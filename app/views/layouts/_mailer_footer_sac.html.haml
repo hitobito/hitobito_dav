@@ -1,3 +1,9 @@
 %footer
   %address
-    = simple_format(SacAddressPresenter.new.format(:mail))
+    - if @group
+      = render 'contactable/contact_data',
+               contactable: @group,
+               postal: (@group.contact.blank?),
+               only_public: true
+    - else
+      = simple_format(SacAddressPresenter.new.format(:mail))
