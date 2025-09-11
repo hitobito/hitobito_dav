@@ -20,5 +20,10 @@
                   class: 'btn-sm',
                   method: :post,
                   data: { confirm: t('.cancel_invoice_confirmation') })
+    - if invoice.payable?
+      = action_button(t('.mark_payed'),
+                  mark_payed_external_invoices_group_people_group_person_path(@group, @person, invoice),
+                  :check,
+                  method: :post)
 
 = paginate @external_invoices

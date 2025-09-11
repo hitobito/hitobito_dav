@@ -46,7 +46,11 @@ class ExternalInvoice < ActiveRecord::Base
   scope :list, -> { order(:created_at) }
 
   def cancellable?
-    abacus_sales_order_key.present? && state != "cancelled" && state != "error"
+    state != "cancelled" && state != "error"
+  end
+
+  def payable?
+    state == "open" || state == "draft"
   end
 
   def title = id

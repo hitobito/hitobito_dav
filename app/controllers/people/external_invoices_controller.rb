@@ -15,6 +15,15 @@ class People::ExternalInvoicesController < ListController
     redirect_to external_invoices_group_person_path(group, person)
   end
 
+  def mark_payed
+    authorize!(:cancel_external_invoice, invoice)
+    invoice.state = "payed"
+    invoice.save!
+    Invoices::SacMemberships::MembershipManager.new(person, group, invoice.year).update_membership_status
+    flash[:notice] = t(".flash", invoice: invoice.title, abacus_sales_order_key: invoice.abacus_sales_order_key)
+    redirect_to external_invoices_group_person_path(group, person)
+  end
+
   def show
     person_id = invoice.person_id
     group_id = Person.where(id: person_id).pick(:primary_group_id)

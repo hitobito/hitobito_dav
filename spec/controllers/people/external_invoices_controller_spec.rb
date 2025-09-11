@@ -118,7 +118,7 @@ describe People::ExternalInvoicesController do
 
           check_presence_of_cancel_button_after { invoice.update!(state: "cancelled") }
           check_presence_of_cancel_button_after { invoice.update!(state: "error") }
-          check_presence_of_cancel_button_after { invoice.update!(abacus_sales_order_key: nil) }
+          # check_presence_of_cancel_button_after { invoice.update!(abacus_sales_order_key: nil) }
         end
 
         it "shows the cancellation button" do
