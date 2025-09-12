@@ -24,6 +24,7 @@ class People::NeuanmeldungenMailer < ApplicationMailer
   def send_mail(person, section, content_key)
     @person = person
     @section = section
+    @group = section.decorate
     headers[:bcc] = [SacCas::MV_EMAIL, section.email].compact_blank
 
     I18n.with_locale(person.language) do

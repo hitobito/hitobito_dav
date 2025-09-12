@@ -24,6 +24,7 @@ class Signup::SektionMailer < ApplicationMailer
   def send_mail(person, section, beitragskategorie, content_key)
     @person = person
     @section = section
+    @group = section.decorate
     @beitragskategorie = beitragskategorie
     headers[:bcc] = [section.email, SacCas::MV_EMAIL].compact_blank
 
