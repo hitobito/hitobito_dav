@@ -84,10 +84,10 @@ describe "people list page", :js do
 
     within(".dropdown-menu") do
       expect(page).to have_text("Bemerkungen Geschäftsstelle")
-      expect(page).to have_text("Bemerkungen Sektion 1")
+      expect(page).to have_text("Bemerkung 1")
     end
 
-    check("Bemerkungen Sektion 1")
+    check("Bemerkung 1")
     expect(page).to have_css("td[data-attribute-name=sac_remark_section_1]", text: "Bemerkung 1 für Sektion")
 
     check("Bemerkungen Geschäftsstelle")

@@ -26,35 +26,35 @@ describe TableDisplays::People::SacRemarkSectionColumn, type: :helper do
 
   it_behaves_like "table display", {
     column: :sac_remark_section_1,
-    header: "Bemerkungen Sektion 1",
+    header: "Bemerkung 1",
     value: "Bemerkung von Sektion 1",
     permission: :manage_section_remarks
   }
 
   it_behaves_like "table display", {
     column: :sac_remark_section_2,
-    header: "Bemerkungen Sektion 2",
+    header: "Bemerkung 2",
     value: "Bemerkung von Sektion 2",
     permission: :manage_section_remarks
   }
 
   it_behaves_like "table display", {
     column: :sac_remark_section_3,
-    header: "Bemerkungen Sektion 3",
+    header: "Bemerkung 3",
     value: "Bemerkung von Sektion 3",
     permission: :manage_section_remarks
   }
 
   it_behaves_like "table display", {
     column: :sac_remark_section_4,
-    header: "Bemerkungen Sektion 4",
+    header: "Bemerkung 4",
     value: "Bemerkung von Sektion 4",
     permission: :manage_section_remarks
   }
 
   it_behaves_like "table display", {
     column: :sac_remark_section_5,
-    header: "Bemerkungen Sektion 5",
+    header: "Bemerkung 5",
     value: "Bemerkung von Sektion 5",
     permission: :manage_section_remarks
   }
