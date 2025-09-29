@@ -31,7 +31,7 @@ describe Export::Pdf::Participations::LeaderSettlement do
   let!(:rate_day) { Fabricate.create(:course_compensation_rate, valid_from: Date.new(2021, 5, 1), valid_to: Date.new(2022, 5, 1), rate_leader: 20, rate_assistant_leader: 10, course_compensation_category: course_compensation_categories(:day)) }
   let!(:rate_flat) { Fabricate.create(:course_compensation_rate, valid_from: Date.new(2021, 5, 24), valid_to: Date.new(2022, 5, 24), rate_leader: 50, rate_assistant_leader: 25, course_compensation_category: course_compensation_categories(:flat)) }
   let!(:rate_budget) { Fabricate.create(:course_compensation_rate, valid_from: Date.new(2021, 5, 24), valid_to: Date.new(2022, 5, 24), rate_leader: 13, rate_assistant_leader: 13, course_compensation_category: course_compensation_categories(:budget)) }
-  let!(:participation) { Fabricate(:event_participation, event: course, participant: member, actual_days: course.total_event_days) }
+  let!(:participation) { Fabricate(:event_participation, event: course, person: member, actual_days: course.total_event_days) }
   let(:pdf) { described_class.new(participation, "CH93 0076 2011 6238 5295 7").render }
   let(:pdf_content) { PDF::Inspector::Text.analyze(pdf) }
   let(:today) { Time.zone.today }

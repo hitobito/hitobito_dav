@@ -9,7 +9,7 @@ require "spec_helper"
 
 describe SacCas::Event::ParticipationDecorator do
   let(:admin) { people(:admin) }
-  let(:participation) { Fabricate.build(:event_participation, participant: admin) }
+  let(:participation) { Fabricate.build(:event_participation, person: admin) }
 
   subject(:decorator) { participation.decorate }
 
