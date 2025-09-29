@@ -21,6 +21,18 @@ namespace :dav do
       end
     end
 
+    desc "Seed roadshow data"
+    task :roadshow, [:schema, :dumpfile] do |_t, args|
+      sql_file = args[:dumpfile].presence || "/roadshow-seeds/dump.sql"
+      File.exist?(sql_file) or raise "SQL dump file #{sql_file} does not exist"
+
+      target_schema = args[:schema].presence || "database"
+
+      `echo "DROP SCHEMA IF EXISTS restore_temp CASCADE" | rails db -p`
+      `cat #{sql_file} | sed 's/public\\./restore_temp./g' | sed 's/SCHEMA public/SCHEMA restore_temp/g' | rails db -p`
+      `echo "DROP SCHEMA IF EXISTS #{target_schema} CASCADE; ALTER SCHEMA restore_temp RENAME TO #{target_schema};" | rails db -p`
+    end
+
     desc "Seed all DAV sections, optionally limit the amount: `dav:seed:all_sections[42]"
     task :all_sections, [:limit] => :environment do |_t, args|
       require HitobitoDav::Wagon.root.join("db", "seeds", "support", "dav_sections").to_s
