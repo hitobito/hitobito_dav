@@ -44,6 +44,9 @@ module HitobitoDav
     end
 
     config.to_prepare do # rubocop:disable Metrics/BlockLength
+      # Remove Kurse tab for DAV roadshow
+      Sheet::Group.tabs.reject! { |t| t.label_key == "activerecord.models.event/course.other" }
+
       # prevent re-adding search columns as we test with millions of records and this takes ages
       SearchColumnBuilder.prepend(Module.new do
         def initialize(drop_columns: false)
