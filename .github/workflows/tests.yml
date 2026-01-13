@@ -5,6 +5,7 @@ on:
     branches: # for all other branches, create a pull request to run the tests
       - master
       - sac-master
+      - stable
     paths-ignore:
       - "doc/**"
       - "**.md"
